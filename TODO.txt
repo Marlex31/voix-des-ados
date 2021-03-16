@@ -1,0 +1,19 @@
+use abbr tag for word definitions OR css tooltip
+
+chapter dropdown menu with 3d transform, akin to hl final hour
+OR
+Chapter sidebar - akin to Vue docs
+
+interactive svg for map of France
+
+main page with svg hero and article flexbox/grid
+
+draw svg on scroll
+
+article list:
+read json with article list
+add item with class from key and image/solid color
+
+item with multiple tags
+
+

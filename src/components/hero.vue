@@ -44,9 +44,10 @@ export default {
 
 #logo{
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-top: 10px;
 }
 
 #logo path{

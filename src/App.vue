@@ -1,4 +1,5 @@
 <template>
+<div>
 <!-- <net_hist></net_hist> -->
 <!-- <terminal source="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -6,15 +7,17 @@
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
     fugiat nulla pariatur.">
 </terminal> -->
-<!-- <hero></hero> -->
 <!-- <carousel></carousel> -->
+<hero></hero>
+<div style="height: 100px;"></div>
 <home></home>
+</div>
 </template>
 
 <script>
 // import net_hist from './components/net_hist'
 // import terminal from './components/terminal'
-// import hero from './components/hero'
+import hero from './components/hero'
 // import carousel from './components/carousel'
 import home from './components/home'
 
@@ -23,8 +26,8 @@ export default {
   components: {
     // net_hist
     // terminal
-    // hero
     // carousel
+    hero,
     home
   }
 }
@@ -37,6 +40,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: moccasin;
 }
 </style>

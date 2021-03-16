@@ -1,60 +1,106 @@
 [
     {
-        "Diverissment": [
-            "Zodiac",
-            "Tenues symboliques des célébrités",
-            "Fashion week Paris",
-            "Youtuber"
-        ]
+        "title": "Zodiac",
+        "tags": ["entertainment"]
     },
     {
-        "Technologie":[
-            "L'impact de la tech. sur le cotidien",
-            "Review du smartphone"
-        ]
+        "title":"Tenues symboliques des célébrités",
+        "tags": ["entertainment"]
     },
     {
-        "Culture":[
-            "Arsene Lupin",
-            "Acordeonist - Emil Drăgoi",
-            "Les fêtes",
-            "Francophonie",
-            "Musique et artiestes françois",
-            "Acteurs fraçaises et comedie"
-        ]
+        "title": "Fashion week Paris",
+        "tags": ["entertainment", "francophonie"]
     },
     {
-        "Gastronomie":[
-            "Sucreries",
-            "Recette"
-        ]
+        "title": "Youtuber",
+        "tags": ["entertainment"]
     },
     {
-        "Geographie":[
-            "La pollution",
-            "La Mer Noire"
-        ]
+        "title": "L'impact de la tech. sur le quotidien",
+        "tags": ["technology"]
     },
     {
-        "Histoire":[
-            "Histoire d'Internet",
-            "Voitures d'epoque"
-        ]
+        "title": "Review du smartphone",
+        "tags": ["technology"]
     },
     {
-        "Divers":[
-            "Les temps",
-            "Nutrision",
-            "President Macron"
-        ]
+        "title": "Histoire de l'Internet",
+        "tags": ["technology", "history"]
     },
     {
-        "Sport":[
-            "Lionel Messi",
-            "Entervue",
-            "Gymnastique",
-            "Coupe mondiale du 2018",
-            "Le tour de France"
-        ]
+        "title": "Arsène Lupin",
+        "tags": ["culture", "francophonie"]
+    },
+    {
+        "title": "Acordéoniste Emil Drăgoi",
+        "tags": ["culture"]
+    },
+    {
+        "title": "Les fêtes",
+        "tags": ["culture"]
+    },
+    {
+        "title": "Francophonie",
+        "tags": ["culture", "francophonie"]
+    },
+    {
+        "title": "Musique et artistes français",
+        "tags": ["culture", "francophonie"]
+    },
+    {
+        "title": "Acteurs français et comédie",
+        "tags": ["culture", "francophonie"]
+    },
+    {
+        "title": "Sucreries",
+        "tags": ["gastronomy"]
+    },
+    {
+        "title": "Récettes",
+        "tags": ["gastronomy"]
+    },
+    {
+        "title": "La pollution",
+        "tags": ["geography"]
+    },
+    {
+        "title": "La Mer Noire",
+        "tags": ["geography"]
+    },
+    {
+        "title": "Voitures d'époque",
+        "tags": ["history"]
+    },
+    {
+        "title": "Le temps qu'il fait",
+        "tags": ["misc"]
+    },
+    {
+        "title": "Nutrition",
+        "tags": ["misc"]
+    },
+    {
+        "title": "Président Macron",
+        "tags": ["misc"]
+    },
+    {
+        "title": "Lionel Messi",
+        "tags": ["sports"]
+    },
+    {
+        "title": "Entrevue avec un sportif",
+        "tags": ["sports"]
+    },
+    {
+        "title": "Gymnastique",
+        "tags": ["sports"]
+    },
+    {
+        "title": "Coupe mondiale de foot 2018",
+        "tags": ["sports"]
+    },
+    {
+        "title": "La tour de France",
+        "tags": ["sports"]
     }
 ]
