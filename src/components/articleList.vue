@@ -4,12 +4,12 @@
     <button @click="reqSort" class="flex-item">{{ item.toUpperCase() }}</button>
   </div>
 
-  <div class="grid-container">
-    <div v-for="(item, index) in list" :key="index" :class="[item.tags, scale]"
+    <transition-group tag="div" class="grid-container" name="list">
+    <div v-for="(item, index) in list" :key="index" :class="item.tags"
     class="grid-item">
       {{item['title']}}
     </div>
-  </div>
+    </transition-group>
 </div>
 </template>
 
@@ -33,8 +33,7 @@ export default {
       return{
         list: jsonList,
         titleArr: titles,
-        scale: "scaleIn",
-        lastReq: null
+        lastReq: null,
       }
     },
     methods:{
@@ -49,14 +48,25 @@ export default {
           this.lastReq = e.target.innerHTML.toLowerCase()
         }
       }
-    },
-    beforeUpdate(){
-        this.scale = 'scaleInFast'
     }
 }
 </script>
 
 <style>
+
+.list-enter-active,
+.list-leave-active {
+  transition: all 1s ease;
+}
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: scale(.8);
+}
+/* .list-move {
+  transition: transform 5s ease;
+} */
+
 
 .flex-container{
   display: inline-flex;
@@ -66,9 +76,9 @@ export default {
 }
 
 .flex-item{
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
-  margin: 5px;
+  margin: 0 15px;
   border-radius: 5px;
 }
 
@@ -96,16 +106,6 @@ export default {
   scale: 1.1;
 }
 
-.scaleIn{animation:scaleIn .5s cubic-bezier(.39,.575,.565,1.000) 4s both}
-@keyframes scaleIn{
-  0%{transform:scale(.8); opacity:0}
-  100%{transform:scale(1); opacity:1}
-}
-.scaleInFast{animation:scaleInFast .5s cubic-bezier(.39,.575,.565,1.000) 0.4s both}
-@keyframes scaleInFast{
-  0%{transform:scale(.8); opacity:0}
-  100%{transform:scale(1); opacity:1}
-}
 
 .entertainment{
   background-color: rgb(255, 94, 94);
