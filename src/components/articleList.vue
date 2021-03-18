@@ -1,15 +1,16 @@
 <template>
 <div>
   <div class="flex-container" v-for="(item, index) in titleArr" :key="index">
-    <button @click="reqSort" class="flex-item">{{ item.toUpperCase() }}</button>
+    <button @click="reqSort" class="btn" :class="btnToggle(index)">
+      {{ item.toUpperCase() }}
+    </button>
   </div>
-
-    <transition-group tag="div" class="grid-container" name="list">
+  <transition-group tag="div" class="grid-container" name="list">
     <div v-for="(item, index) in list" :key="index" :class="item.tags"
     class="grid-item">
       {{item['title']}}
     </div>
-    </transition-group>
+  </transition-group>
 </div>
 </template>
 
@@ -34,14 +35,23 @@ export default {
         list: jsonList,
         titleArr: titles,
         lastReq: null,
+        activeIndex: null
       }
     },
     methods:{
+      btnToggle(index){
+        if (this.activeIndex == index) {
+          return "btn-active"
+        }
+        return "btn-disabled"
+      },
       reqSort(e){
         // DRY
+        this.activeIndex = titles.indexOf(e.target.innerHTML.toLowerCase())
         if (this.lastReq == e.target.innerHTML.toLowerCase()){
           this.list = jsonList
           this.lastReq = null
+          this.activeIndex = null
         }
         else{
           this.list = jsonList.filter(item => item.tags.includes(e.target.innerHTML.toLowerCase()))
@@ -75,13 +85,30 @@ export default {
   justify-content: center;
 }
 
-.flex-item{
-  font-size: 22px;
+.btn{
+  font-size: 20px;
   text-align: center;
   margin: 0 15px;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px grey;
 }
 
+.btn:hover{
+  background-color: lightgreen;
+}
+.btn:active{
+  color: white;
+  background-color: limegreen;
+}
+
+.btn-disabled{
+  color: green;
+  background-color: lightgrey;
+}
+.btn-active{
+  color: white;
+  background-color: green;
+}
 
 .grid-container {
   display: grid;
@@ -98,6 +125,7 @@ export default {
   width: 150px;
   height: 150px;
   padding: 5px;
+  box-shadow: 5px 5px 10px grey;
   transition: linear 0.2s;
 }
 
