@@ -1,4 +1,6 @@
 
+add cursor change on hover
+
 alignment of all elements + white margin around main div
 
 bounce anim for items instead of scaling

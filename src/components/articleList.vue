@@ -29,7 +29,7 @@ jsonList.forEach(element => {
 });
 
 export default {
-    name: "home",
+    name: "ArticleList",
     data(){
       return{
         list: jsonList,
@@ -66,7 +66,7 @@ export default {
 
 .list-enter-active,
 .list-leave-active {
-  transition: all 1s ease;
+  transition: all .4s ease-in-out;
 }
 .list-enter-from,
 .list-leave-to {
@@ -91,10 +91,12 @@ export default {
   margin: 0 15px;
   border-radius: 5px;
   box-shadow: 2px 2px 5px grey;
+  transition: all .2s ease-in-out;
 }
 
 .btn:hover{
   background-color: lightgreen;
+  transform: scale(1.1);
 }
 .btn:active{
   color: white;
@@ -131,13 +133,15 @@ export default {
 
 .grid-item:hover{
   background-color: cyan;
-  scale: 1.1;
+  scale: 1.05;
+  box-shadow: 5px 5px 15px grey;
 }
 
 
 .entertainment{
   background-color: rgb(255, 94, 94);
 }
+
 .gastronomy{
   background-color:chocolate;
 }
