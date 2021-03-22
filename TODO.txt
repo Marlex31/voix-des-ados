@@ -1,13 +1,23 @@
 
-add cursor change on hover
+give image sources
 
-alignment of all elements + white margin around main div
+add contour to images -DONE-
+
+active btn tone color down to produce pressing down effect + use text-color
+
+article image zoom on hover instead of scaling
+
+convert methods to computed
+
+add cursor change on hover -DONE-
+
+alignment of all elements + white margin around main div -DONE-
 
 bounce anim for items instead of scaling
 
 article preview
 
-style filter buttons
+style filter buttons -DONE-
 
 scale SVG hero
 
@@ -19,7 +29,7 @@ shorten writing.mp4
 
 change tab logo
 
-use abbr tag for word definitions OR css tooltip
+use abbr tag for word definitions OR css tooltip -DONE-
 
 chapter dropdown menu with 3d transform, akin to hl final hour
 OR

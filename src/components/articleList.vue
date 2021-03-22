@@ -58,11 +58,14 @@ export default {
           this.lastReq = e.target.innerHTML.toLowerCase()
         }
       }
+    },
+    mounted(){
+      document.body.style.backgroundColor = "lightblue";
     }
 }
 </script>
 
-<style>
+<style scoped>
 
 .list-enter-active,
 .list-leave-active {
@@ -88,6 +91,7 @@ export default {
 .btn{
   font-size: 20px;
   text-align: center;
+  padding: 8px;
   margin: 0 15px;
   border-radius: 5px;
   box-shadow: 2px 2px 5px grey;
@@ -97,6 +101,7 @@ export default {
 .btn:hover{
   background-color: lightgreen;
   transform: scale(1.1);
+  cursor: pointer;
 }
 .btn:active{
   color: white;
@@ -135,6 +140,7 @@ export default {
   background-color: cyan;
   scale: 1.05;
   box-shadow: 5px 5px 15px grey;
+  cursor: pointer;
 }
 
 

@@ -3,9 +3,13 @@
 </template>
 
 <style>
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
   color: #2c3e50;
 }
 </style>
