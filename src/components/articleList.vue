@@ -121,10 +121,10 @@ export default {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4, 175px);
-  margin: auto;
-  padding: 50px 10px;
+  margin: 5% auto;
+  width: 90%;
 }
 
 .grid-item {
@@ -137,6 +137,8 @@ export default {
   padding: 5px;
   box-shadow: 5px 5px 10px grey;
   transition: linear 0.2s;
+  margin: auto;
+  border-radius: 10px;
 }
 
 .grid-item:hover{

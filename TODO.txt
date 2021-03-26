@@ -1,5 +1,7 @@
 
-align home grid
+article routing - convert to URL by lowercasing clicked title and hyphenating spaces
+
+align home grid -DONE-
 
 Edge warning or test compatibility
 

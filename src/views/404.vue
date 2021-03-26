@@ -2,7 +2,8 @@
 <div>
     <div class="box">
         <h1 class="msg">404 erreur: page web pas trouvé</h1>
-        <router-link to="/">Va à la page d'accueil</router-link>
+        <br><br><br><br>
+        <router-link to="/" class="msg">Va à la page d'accueil</router-link>
     </div>
 </div>
 </template>
@@ -18,7 +19,7 @@ export default {
 <style scoped>
 
 .box{
-    color: cornflowerblue;
+    color: black;
     margin: auto;
     width: 50%;
     text-align: center;
@@ -26,8 +27,9 @@ export default {
 }
 
 .msg{
-    padding: 50px 0;
-    border: rgb(10, 182, 212) solid 5px;
+    font-size: 30px;
+    background-color:cornflowerblue;
+    padding: 30px;
     border-radius: 50px;
 }
 
