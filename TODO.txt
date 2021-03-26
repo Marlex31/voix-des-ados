@@ -1,4 +1,8 @@
 
+align home grid
+
+Edge warning or test compatibility
+
 give image sources
 
 add contour to images -DONE-
@@ -37,14 +41,13 @@ Chapter sidebar - akin to Vue docs
 
 interactive svg for map of France
 
-main page with svg hero and article flexbox/grid
+main page with svg hero and article flexbox/grid -DONE-
 
 draw svg on scroll
 
-article list:
-read json with article list
-add item with class from key and image/solid color
+read json with article list -DONE-
+add item with class from key and image/solid color -DONE-
 
-item with multiple tags
+item with multiple tags -DONE-
 
 

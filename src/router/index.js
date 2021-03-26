@@ -19,6 +19,28 @@ const routes = [
     path: '/recette',
     name: 'Recette',
     component: () => import('../views/Recette.vue')
+  },
+  {
+    path: '/test',
+    name: 'Test',
+    component: () => import('../views/Test.vue')
+  },
+  {
+    path: '/horoscope',
+    name: 'Horoscope',
+    component: () => import('../views/Horoscope.vue')
+  },
+  {
+    path: '/meteo',
+    name: 'Meteo',
+    component: () => import('../views/Meteo.vue')
+  }
+  ,
+  {
+    path: '/:pathMatch(.*)',
+    name: '404',
+    component: () => import('../views/404.vue')
+
   }
 ]
 

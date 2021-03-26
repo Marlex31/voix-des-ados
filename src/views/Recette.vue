@@ -185,6 +185,7 @@ li{
 
 .grid-item{
     border: solid black 1px;
+    background-color: rgb(253, 201, 110);
     text-align: center;
     padding: 5px;
     margin: 5px;

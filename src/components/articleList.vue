@@ -1,10 +1,12 @@
 <template>
 <div>
-  <div class="flex-container" v-for="(item, index) in titleArr" :key="index">
-    <button @click="reqSort" class="btn" :class="btnToggle(index)">
+  <div class="flex-container">
+    <button v-for="(item, index) in titleArr" :key="index"
+    @click="reqSort" class="btn" :class="btnToggle(index)">
       {{ item.toUpperCase() }}
     </button>
   </div>
+
   <transition-group tag="div" class="grid-container" name="list">
     <div v-for="(item, index) in list" :key="index" :class="item.tags"
     class="grid-item">
@@ -82,7 +84,7 @@ export default {
 
 
 .flex-container{
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
@@ -121,6 +123,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-template-rows: repeat(4, 175px);
+  margin: auto;
   padding: 50px 10px;
 }
 
