@@ -1,6 +1,6 @@
 <template>
 
-<svg id="logo" width="438" height="38" viewBox="0 0 438 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg id="logo" width="700" viewBox="0 0 438 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 <mask id="path-1-outside-1" maskUnits="userSpaceOnUse" x="0.898438" y="0.382812" width="437" height="38" fill="black">
 <rect fill="white" x="0.898438" y="0.382812" width="437" height="38"/>
 <path d="M1.89844 36V33.0469L5.71875 32.3906V5.50781L1.89844 4.85156V1.875H14.1562V4.85156L10.3359 5.50781V32.4609H22.4062L22.9453 27.0703H26.4844V36H1.89844Z"/>

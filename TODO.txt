@@ -1,4 +1,10 @@
-use webdings for zodiac signs
+animated link underline (https://www.britishmuseum.org/collection/object/A_1922-1214-25)
+
+eiffel tower svg change active styling -DONE-
+
+change tab title for each page
+
+use webdings for zodiac signs?
 
 404 minigame - dino?
 
@@ -6,7 +12,7 @@ smooth scroll on page change?
 
 text fade in animations
 
-tag icons instead of text
+tag icons instead of text -DONE-
 
 fix dependency security issued?
 
@@ -16,7 +22,7 @@ align home grid -DONE-
 
 Edge warning or test compatibility
 
-give image sources
+give image sources -DONE-
 
 add contour to images -DONE-
 
