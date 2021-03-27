@@ -1,7 +1,7 @@
 <template>
 <div class="content">
-    <h1 style="margin: auto; text-align: center;">Clafoutis aux cerises</h1>
-    <h3 style="margin: auto; text-align: center;">Cătinean Larisa-Maria</h3>
+    <h1 class="title">Clafoutis aux cerises</h1>
+    <h3 class="title">Cătinean Larisa-Maria</h3>
 
     <div class="container">
         <img src="@/assets/tarte/tarte.jpg" alt="Tarte" style="width: 100%;">

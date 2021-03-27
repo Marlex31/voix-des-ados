@@ -1,5 +1,16 @@
+use webdings for zodiac signs
 
-article routing - convert to URL by lowercasing clicked title and hyphenating spaces
+404 minigame - dino?
+
+smooth scroll on page change?
+
+text fade in animations
+
+tag icons instead of text
+
+fix dependency security issued?
+
+article routing by ID -DONE-
 
 align home grid -DONE-
 

@@ -11,5 +11,12 @@
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   color: #2c3e50;
+  scroll-behavior: smooth;
 }
+
+.title{
+  text-align: center;
+  margin: auto;
+}
+
 </style>

@@ -15,6 +15,12 @@ export default {
   components: {
     hero,
     ArticleList
+  },
+  mounted(){
+  document.body.style.backgroundColor = "lightblue";
+  },
+  beforeUnmount(){
+    window.scrollTo(0, 0);
   }
 }
 </script>

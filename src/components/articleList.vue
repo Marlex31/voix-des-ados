@@ -1,16 +1,16 @@
 <template>
 <div>
   <div class="flex-container">
-    <button v-for="(item, index) in titleArr" :key="index"
+    <button v-for="(item, index) in tagsArr" :key="index"
     @click="reqSort" class="btn" :class="btnToggle(index)">
       {{ item.toUpperCase() }}
     </button>
   </div>
 
   <transition-group tag="div" class="grid-container" name="list">
-    <div v-for="(item, index) in list" :key="index" :class="item.tags"
-    class="grid-item">
-      {{item['title']}}
+    <div v-for="(item, index) in titleArr" :key="index" :class="item.tags" :id="index"
+    class="grid-item" @click="route">
+      {{ item['title'] }}
     </div>
   </transition-group>
 </div>
@@ -21,11 +21,11 @@
 
 import jsonList from "../assets/articles.json";
 
-var titles = []
+var tags = []
 jsonList.forEach(element => {
   element.tags.forEach(el => {
-  if (!titles.includes(el)) {
-    titles.push(el)
+  if (!tags.includes(el)) {
+    tags.push(el)
   }
   });
 });
@@ -34,13 +34,16 @@ export default {
     name: "ArticleList",
     data(){
       return{
-        list: jsonList,
-        titleArr: titles,
+        titleArr: jsonList,
+        tagsArr: tags,
         lastReq: null,
         activeIndex: null
       }
     },
     methods:{
+      route(e){
+        this.$router.push(e.target.id);
+      },
       btnToggle(index){
         if (this.activeIndex == index) {
           return "btn-active"
@@ -48,21 +51,18 @@ export default {
         return "btn-disabled"
       },
       reqSort(e){
-        // DRY
-        this.activeIndex = titles.indexOf(e.target.innerHTML.toLowerCase())
-        if (this.lastReq == e.target.innerHTML.toLowerCase()){
-          this.list = jsonList
+        let target = e.target.innerHTML.toLowerCase()
+        this.activeIndex = tags.indexOf(target)
+        if (this.lastReq == target){
+          this.titleArr = jsonList
           this.lastReq = null
           this.activeIndex = null
         }
         else{
-          this.list = jsonList.filter(item => item.tags.includes(e.target.innerHTML.toLowerCase()))
-          this.lastReq = e.target.innerHTML.toLowerCase()
+          this.titleArr = jsonList.filter(item => item.tags.includes(target))
+          this.lastReq = target
         }
       }
-    },
-    mounted(){
-      document.body.style.backgroundColor = "lightblue";
     }
 }
 </script>
