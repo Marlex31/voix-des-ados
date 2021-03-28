@@ -16,7 +16,7 @@ export default {
     ArticleList
   },
   mounted(){
-  document.body.style.backgroundColor = "lightblue";
+    document.body.style.backgroundColor = "lightblue";
   },
   beforeUnmount(){
     window.scrollTo(0, 0);

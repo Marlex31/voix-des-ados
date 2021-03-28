@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="title">Horoscope</h1>
+        <h1 class="title" ref="title">Horoscope</h1>
         <h2 class="title">Bonda Alisa</h2>
     </div>
 </template>

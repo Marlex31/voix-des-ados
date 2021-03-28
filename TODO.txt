@@ -1,30 +1,15 @@
+scroll to top btn
+
 animated link underline (https://www.britishmuseum.org/collection/object/A_1922-1214-25)
 
-eiffel tower svg change active styling -DONE-
-
-change tab title for each page
 
 use webdings for zodiac signs?
 
-404 minigame - dino?
+404 minigame - dino / 404 char eyes following pointer
 
 smooth scroll on page change?
 
 text fade in animations
-
-tag icons instead of text -DONE-
-
-fix dependency security issued?
-
-article routing by ID -DONE-
-
-align home grid -DONE-
-
-Edge warning or test compatibility
-
-give image sources -DONE-
-
-add contour to images -DONE-
 
 active btn tone color down to produce pressing down effect + use text-color
 
@@ -32,17 +17,11 @@ article image zoom on hover instead of scaling
 
 convert methods to computed
 
-add cursor change on hover -DONE-
-
-alignment of all elements + white margin around main div -DONE-
+fix dependency security issued?
 
 bounce anim for items instead of scaling
 
 article preview
-
-style filter buttons -DONE-
-
-scale SVG hero
 
 translate button names
 
@@ -52,21 +31,33 @@ shorten writing.mp4
 
 change tab logo
 
-use abbr tag for word definitions OR css tooltip -DONE-
-
 chapter dropdown menu with 3d transform, akin to hl final hour
 OR
 Chapter sidebar - akin to Vue docs
 
 interactive svg for map of France
 
+
+change tab title for each page -DONE-
+tag icons instead of text -DONE-
+article routing by ID -DONE-
+align home grid -DONE-
+Edge warning or test compatibility
+eiffel tower svg change active styling -DONE-
+give image sources -DONE-
+add contour to images -DONE-
+add cursor change on hover -DONE-
+alignment of all elements + white margin around main div -DONE-
+style filter buttons -DONE-
+scale SVG hero -DONE-
+use abbr tag for word definitions OR css tooltip -DONE-
 main page with svg hero and article flexbox/grid -DONE-
+read json with article list -DONE-
+add item with class from key and image/solid color -DONE-
+item with multiple tags -DONE-
 
 draw svg on scroll
 
-read json with article list -DONE-
-add item with class from key and image/solid color -DONE-
 
-item with multiple tags -DONE-
 
 

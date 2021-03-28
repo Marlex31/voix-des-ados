@@ -1,7 +1,7 @@
 <template>
 <div>
     <div class="box">
-        <h1 class="msg">404 erreur: page web pas trouvé</h1>
+        <h1 class="msg">Aïe ! Cette page est introuvable.</h1>
         <br><br><br><br>
         <router-link to="/" class="msg">Va à la page d'accueil</router-link>
     </div>
@@ -11,7 +11,14 @@
 <script>
 export default {
     mounted(){
-      document.body.style.backgroundColor = "lightblue";
+        // console.log(this.$router.currentRoute._value.name);
+        // console.log(this.$router.getRoutes());
+
+    //     document.title = "Page non trouvée"
+        document.body.style.backgroundColor = "lightblue";
+    // },
+    // beforeUnmount(){
+    //     document.title = "La voix des ados"
     }
 }
 </script>

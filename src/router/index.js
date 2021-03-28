@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'La voix des ados',
     component: () => import('../views/Home.vue')
   },
   {
@@ -37,7 +37,7 @@ const routes = [
   ,
   {
     path: '/:pathMatch(.*)',
-    name: '404',
+    name: 'Page non trouvée',
     component: () => import('../views/404.vue')
 
   }
@@ -46,6 +46,10 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes
+})
+
+router.beforeEach((to) => {
+  document.title = to.name
 })
 
 export default router
