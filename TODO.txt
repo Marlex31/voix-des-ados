@@ -1,7 +1,8 @@
+weather iframe updating system
+
 scroll to top btn
 
 animated link underline (https://www.britishmuseum.org/collection/object/A_1922-1214-25)
-
 
 use webdings for zodiac signs?
 
@@ -23,8 +24,6 @@ bounce anim for items instead of scaling
 
 article preview
 
-translate button names
-
 choose color pallette or use SCSS for easy changes
 
 shorten writing.mp4
@@ -35,9 +34,8 @@ chapter dropdown menu with 3d transform, akin to hl final hour
 OR
 Chapter sidebar - akin to Vue docs
 
-interactive svg for map of France
 
-
+translate button names -DONE-
 change tab title for each page -DONE-
 tag icons instead of text -DONE-
 article routing by ID -DONE-

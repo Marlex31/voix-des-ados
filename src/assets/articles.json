@@ -1,31 +1,31 @@
 [
     {
         "title": "Horoscope",
-        "tags": ["entertainment"]
+        "tags": ["divertissement"]
     },
     {
         "title":"Tenues symboliques des célébrités",
-        "tags": ["entertainment"]
+        "tags": ["divertissement"]
     },
     {
         "title": "Fashion week Paris",
-        "tags": ["entertainment", "francophonie"]
+        "tags": ["divertissement", "francophonie"]
     },
     {
         "title": "Youtuber",
-        "tags": ["entertainment"]
+        "tags": ["divertissement"]
     },
     {
         "title": "L'impact de la tech. sur le quotidien",
-        "tags": ["technology"]
+        "tags": ["technologie"]
     },
     {
         "title": "Review du smartphone",
-        "tags": ["technology"]
+        "tags": ["technologie"]
     },
     {
         "title": "Histoire de l'Internet",
-        "tags": ["technology", "history"]
+        "tags": ["technologie", "histoire"]
     },
     {
         "title": "Arsène Lupin",
@@ -53,54 +53,54 @@
     },
     {
         "title": "Sucreries",
-        "tags": ["gastronomy"]
+        "tags": ["gastronomie"]
     },
     {
         "title": "Récette",
-        "tags": ["gastronomy"]
+        "tags": ["gastronomie"]
     },
     {
         "title": "La pollution",
-        "tags": ["geography"]
+        "tags": ["geographie"]
     },
     {
         "title": "La Mer Noire",
-        "tags": ["geography"]
+        "tags": ["geographie"]
     },
     {
         "title": "Voitures d'époque",
-        "tags": ["history"]
+        "tags": ["histoire"]
     },
     {
         "title": "Le temps qu'il fait",
-        "tags": ["misc"]
+        "tags": ["divers"]
     },
     {
         "title": "Nutrition",
-        "tags": ["misc"]
+        "tags": ["divers"]
     },
     {
         "title": "Président Macron",
-        "tags": ["misc"]
+        "tags": ["divers"]
     },
     {
         "title": "Lionel Messi",
-        "tags": ["sports"]
+        "tags": ["sport"]
     },
     {
         "title": "Entrevue avec un sportif",
-        "tags": ["sports"]
+        "tags": ["sport"]
     },
     {
         "title": "Gymnastique",
-        "tags": ["sports"]
+        "tags": ["sport"]
     },
     {
         "title": "Coupe mondiale de foot 2018",
-        "tags": ["sports"]
+        "tags": ["sport"]
     },
     {
         "title": "La tour de France",
-        "tags": ["sports"]
+        "tags": ["sport"]
     }
 ]
