@@ -4,8 +4,6 @@ scroll to top btn
 
 animated link underline (https://www.britishmuseum.org/collection/object/A_1922-1214-25)
 
-use webdings for zodiac signs?
-
 404 minigame - dino / 404 char eyes following pointer
 
 smooth scroll up on page change?

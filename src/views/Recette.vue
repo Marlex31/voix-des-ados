@@ -95,11 +95,9 @@
         <h2>Étapes:</h2>
         <ol style="padding-left: 2%">
             <li>
-            <a href="#" class="has-tooltip">Fouettez
-                <span class="tooltip tooltip-top">Dati cu telul</span>
+            <a class="has-tooltip">Fouettez
+                <span class="tooltip tooltip-top">Amestecați cu telul</span>
             </a>
-            /
-            <abbr title="Dati cu telul">Fouettez</abbr>
             les oeufs et le sucre dans un bol, puis ajoutez le beurre fondu.</li>
             <li>Ajoutez ensuite le lait.</li>
             <li>Ajoutez la farine, mélangez bien au fouet puis la poudre d'amande.</li>
@@ -157,17 +155,11 @@ svg{
     max-width: 60%;
 }
 
-abbr:hover{
-    cursor: help;
-}
 
 a{
-    text-decoration: none;
-}
-
-a:hover{
     text-decoration-line: underline;
     text-decoration-color: black;
+    text-decoration-style: dotted;
     cursor: help;
 }
 

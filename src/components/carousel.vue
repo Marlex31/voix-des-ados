@@ -3,7 +3,7 @@
         <div class="main-carousel" ref="carousel">
             <img class="carousel-cell" src="@/assets/tarte/tarte-cut.jpg">
             <img class="carousel-cell" src="@/assets/tarte/tarte-closeup.jpg">
-            <img class="carousel-cell" src="@/assets/tarte/tarte-closeup.jpg">
+            <img class="carousel-cell" src="@/assets/tarte/tarte-pan.jpg">
         </div>
     </div>
 </template>
