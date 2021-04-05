@@ -1,4 +1,4 @@
-weather iframe updating system
+fix flickity carousel and import css using cdn + align images to center
 
 scroll to top btn
 
@@ -8,7 +8,7 @@ use webdings for zodiac signs?
 
 404 minigame - dino / 404 char eyes following pointer
 
-smooth scroll on page change?
+smooth scroll up on page change?
 
 text fade in animations
 
@@ -34,7 +34,7 @@ chapter dropdown menu with 3d transform, akin to hl final hour
 OR
 Chapter sidebar - akin to Vue docs
 
-
+weather iframe updating system -DONE-
 translate button names -DONE-
 change tab title for each page -DONE-
 tag icons instead of text -DONE-
