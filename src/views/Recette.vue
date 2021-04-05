@@ -49,7 +49,7 @@
     </div>
 
     <br><br>
-    <div style="margin: auto; width: 35%">
+    <div style="margin: auto;">
         <h2 class="title">Ingrédients:</h2>
         <br>
         <div class="grid-container">
