@@ -65,21 +65,39 @@
                  alt="Geoffroy Tory lettre A">
         </div>
 
-        <video style="display: block; margin: auto; padding-top: 25px;"
+        <video style="display: block; margin: auto; margin-bottom:50px;"
             height="400" autoplay muted controls loop>
             <source src="@/assets/Formation.mp4" type="video/mp4">
             Ce format de vidéo n'est pas supporté par votre navigateur.
         </video>
 
+        <sources :links="sources_1"></sources>
+
     </div>
 </template>
 
 <script>
+import sources from '../components/sources.vue'
+
 export default {
+    components:{
+        sources
+    },
     mounted(){
         document.body.style.backgroundColor = "rgb(250, 200, 0)";
     },
-
+    data(){
+        return{
+            sources_1: {
+                "Cédille - TV5 serie « Un point c'est tout »": "https://www.tv5mondeplus.com/player/106797582_74079A",
+                "Cédille": "https://fr.wikipedia.org/wiki/C%C3%A9dille",
+                "Geoffroy Tory": "https://fr.wikipedia.org/wiki/Geoffroy_Tory",
+                "Palatalisation": "https://fr.wikipedia.org/wiki/Palatalisation",
+                "Loi de Bartsch": "https://fr.wikipedia.org/wiki/Loi_de_Bartsch",
+                "Bibliothèques de Bourges": "https://www.youtube.com/watch?v=EAjwzNTrwXM",
+                }
+        }
+    }
 }
 </script>
 
