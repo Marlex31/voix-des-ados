@@ -1,3 +1,11 @@
+articleList component to view
+
+first letter selector styling (drop cap)
+
+Ken Burns effect for still images
+
+compress image assets
+
 fix flickity carousel and import css using cdn + align images to center
 
 scroll to top btn

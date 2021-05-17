@@ -1,5 +1,8 @@
 <template>
+<div>
   <router-view/>
+  <div style="height: 200px;"></div>
+</div>
 </template>
 
 <style>
@@ -17,6 +20,7 @@
 .title{
   text-align: center;
   margin: auto;
+  margin-top: 10px;
 }
 
 </style>

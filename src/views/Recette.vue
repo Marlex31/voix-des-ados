@@ -1,7 +1,7 @@
 <template>
 <div class="content">
     <h1 class="title">Clafoutis aux cerises</h1>
-    <h3 class="title">Cătinean Larisa-Maria</h3>
+    <h2 class="title">Cătinean Larisa-Maria</h2>
 
     <div class="container">
         <img src="@/assets/tarte/tarte.jpg" alt="Tarte" style="width: 100%;">
@@ -229,6 +229,7 @@ a{
     align-items: center;
     margin: 10px;
     width: 30%;
+    margin: 10px;
 }
 
 .container{
@@ -257,7 +258,7 @@ a{
     font-weight: bolder;
 }
 
-:is(h1, h2, h3, h4, h5, h6) {
+:is(h1, h2) {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -297,7 +298,7 @@ li{
 
 .grid-item{
     border: solid black 1px;
-    border-radius: 1qpx;
+    border-radius: 10px;
     background-color: rgb(253, 201, 110);
     text-align: center;
     padding: 5px;
@@ -306,6 +307,6 @@ li{
 
 .content{
     font-family: Alegreya;
-    font-size: 25px;
+    font-size: 22px;
 }
 </style>

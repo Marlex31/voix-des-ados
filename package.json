@@ -14,6 +14,7 @@
     "express-sslify": "^1.2.0",
     "flickity": "^2.2.2",
     "serve-static": "^1.14.1",
+    "snapsvg-cjs": "0.0.6",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },

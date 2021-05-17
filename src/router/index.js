@@ -30,6 +30,11 @@ const routes = [
     component: () => import('../views/Horoscope.vue')
   },
   {
+    path: '/21',
+    name: 'Linguistique',
+    component: () => import('../views/Linguistique.vue')
+  },
+  {
     path: '/18',
     name: 'Meteo',
     component: () => import('../views/Meteo.vue')
