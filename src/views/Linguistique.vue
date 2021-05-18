@@ -2,7 +2,7 @@
 <div>
     <h1 class="title">Obscurités diacriques</h1>
     <h2 class="title">Merilă Alexandru</h2>
-    <h1 class="title" style="margin-top: 2.5%;">La Cédille</h1>
+    <h1 class="title" style="margin-top: 2.5%;">Le Ç Cédille</h1>
 
     <div class="content">
         Ç - appelé <i>c cédille</i> en français, est un graphème d'origine espagnol
