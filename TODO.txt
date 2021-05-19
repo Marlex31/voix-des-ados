@@ -1,3 +1,5 @@
+Routing bug when sorting!
+
 articleList component to view
 
 first letter selector styling (drop cap)

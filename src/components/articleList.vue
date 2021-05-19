@@ -16,7 +16,7 @@
   </div>
 
   <transition-group tag="div" class="grid-container" name="list">
-    <div v-for="(item, index) in titleArr" :key="index" :class="item.tags" :id="index"
+    <div v-for="(item, index) in titleArr" :key="index" :class="item.tags" :id="defaultList.indexOf(item)"
     class="grid-item" @click="route">
       {{ item['title'] }}
     </div>
@@ -29,6 +29,7 @@
 
 import jsonList from "../assets/articles.json";
 
+// Filtering tags
 var tags = new Set
 jsonList.forEach(element => {
   element.tags.forEach(el => {
@@ -36,6 +37,7 @@ jsonList.forEach(element => {
   })
 });
 tags = Array.from(tags)
+// No clue what this does
 tags.splice(1, 1)
 tags.splice(0, 0, 'francophonie')
 
@@ -44,6 +46,7 @@ export default {
     data(){
       return{
         titleArr: jsonList,
+        defaultList: jsonList,
         lastReq: null,
         activeIndex: null
       }
@@ -52,6 +55,7 @@ export default {
       route(e){
         this.$router.push(e.target.id);
       },
+      // Toggle style of active filter button
       btnToggle(index){
         if (this.activeIndex == index) {
           return "btn-active"
