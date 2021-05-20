@@ -58,18 +58,31 @@
             </p>
             <br>
         </div>
-        <img src="@/assets/A-letter.png" style="height:200px;"
+        <img src="@/assets/linguistique/A-letter.png" style="height:200px;"
                 alt="Geoffroy Tory lettre A">
     </div>
 
     <video style="display: block; margin: auto; margin-bottom:50px;"
         height="400" autoplay muted controls loop>
-        <source src="@/assets/Formation.mp4" type="video/mp4">
+        <source src="@/assets/linguistique/Formation.mp4" type="video/mp4">
         Ce format de vidéo n'est pas supporté par votre navigateur.
     </video>
 
     <p>C'est grace à elle que la maconnrie peut-être tenu pour une activité professionelle.</p>
-    <Comparison></Comparison>
+    <ImgComparisonSlider>
+        <!-- eslint-disable -->
+        <img
+        slot="before"
+        style="width: 50%; margin:auto; display:block;"
+        src="@/assets/linguistique/macon.png"
+        />
+        <img
+        slot="after"
+        style="width: 50%; margin:auto; display:block;"
+        src="@/assets/linguistique/ma-con.png"
+        />
+        <!-- eslint-enable -->
+  </ImgComparisonSlider>
 
     <sources :links="sources_1"></sources>
 
@@ -110,7 +123,7 @@
 
     <video style="display: block; margin: auto; margin-bottom:50px;"
     height="400" autoplay muted controls loop>
-        <source src="@/assets/Formation-2.mp4" type="video/mp4">
+        <source src="@/assets/linguistique/Formation-2.mp4" type="video/mp4">
         Ce format de vidéo n'est pas supporté par votre navigateur.
     </video>
 
@@ -118,7 +131,7 @@
         <p style="text-align:center; font-size: 22px;">En peuvent conclure que le macron est pour ceux qui ont
             un esprit independent, impartiel.</p>
         <br>
-        <img src="@/assets/macron.png" style="display:block; width:400px; margin:auto;"
+        <img src="@/assets/linguistique/macron.png" style="display:block; width:400px; margin:auto;"
         alt="Caricature de President Macron">
     </div>
 
@@ -128,13 +141,13 @@
 </template>
 
 <script>
-import Comparison from '../components/comparison.vue';
+import { ImgComparisonSlider } from '@img-comparison-slider/vue';
 import sources from '../components/sources.vue'
 
 export default {
     components:{
         sources,
-        Comparison
+        ImgComparisonSlider
     },
     mounted(){
         document.body.style.backgroundColor = "rgb(250, 200, 0)";
