@@ -1,14 +1,11 @@
-Routing bug when sorting!
 
-articleList component to view
-
-first letter selector styling (drop cap)
+link to PDF version of site
 
 Ken Burns effect for still images
 
 compress image assets
 
-fix flickity carousel and import css using cdn + align images to center
+fix flickity carousel and import css using cdn + align images to vertical center
 
 scroll to top btn
 
@@ -16,17 +13,13 @@ animated link underline (https://www.britishmuseum.org/collection/object/A_1922-
 
 404 minigame - dino / 404 char eyes following pointer
 
-smooth scroll up on page change?
-
 text fade in animations
 
 active btn tone color down to produce pressing down effect + use text-color
 
-article image zoom on hover instead of scaling
+article image zoom on hover instead of scaling anim
 
-convert methods to computed
-
-fix dependency security issued?
+fix dependency security issues
 
 bounce anim for items instead of scaling
 
@@ -42,6 +35,12 @@ chapter dropdown menu with 3d transform, akin to hl final hour
 OR
 Chapter sidebar - akin to Vue docs
 
+draw svg on scroll
+
+
+articleList component to view -DONE-
+first letter selector styling (drop cap) -DONE-
+Routing bug when sorting! -DONE-
 weather iframe updating system -DONE-
 translate button names -DONE-
 change tab title for each page -DONE-
@@ -61,9 +60,3 @@ main page with svg hero and article flexbox/grid -DONE-
 read json with article list -DONE-
 add item with class from key and image/solid color -DONE-
 item with multiple tags -DONE-
-
-draw svg on scroll
-
-
-
-

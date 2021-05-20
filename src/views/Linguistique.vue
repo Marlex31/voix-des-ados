@@ -68,6 +68,9 @@
         Ce format de vidéo n'est pas supporté par votre navigateur.
     </video>
 
+    <p>C'est grace à elle que la maconnrie peut-être tenu pour une activité professionelle.</p>
+    <Comparison></Comparison>
+
     <sources :links="sources_1"></sources>
 
     <h1 class="title" style="margin: 2.5% 0">Le Macron</h1>
@@ -125,11 +128,13 @@
 </template>
 
 <script>
+import Comparison from '../components/comparison.vue';
 import sources from '../components/sources.vue'
 
 export default {
     components:{
-        sources
+        sources,
+        Comparison
     },
     mounted(){
         document.body.style.backgroundColor = "rgb(250, 200, 0)";
