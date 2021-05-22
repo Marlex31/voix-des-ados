@@ -1,9 +1,19 @@
 
+dynamic layout on homepage to support window rescaling
+
+home and info navbar
+
+pulsate/bounce home button on 404 page
+
+hero animation like animista - separate route for it?
+
+different font for linguistics article
+
+comparison slider for fashion article, between grayscale and colored images
+
 link to PDF version of site
 
 Ken Burns effect for still images
-
-compress image assets
 
 fix flickity carousel and import css using cdn + align images to vertical center
 

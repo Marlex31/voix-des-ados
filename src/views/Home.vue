@@ -137,7 +137,6 @@ export default {
   box-shadow: 2px 2px 5px grey;
   transition: all .2s ease-in-out;
 }
-
 .btn:hover{
   background-color: chartreuse;
   transform: scale(1.1);
@@ -148,7 +147,6 @@ export default {
   background-color: chartreuse;
   fill: white;
 }
-
 .btn-disabled{
   background-color: lightgrey;
 }
@@ -162,7 +160,7 @@ export default {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(4, 175px);
+  grid-template-rows: repeat(5, 175px);
   margin: 5% auto;
   width: 90%;
 }
@@ -171,7 +169,7 @@ export default {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 25px;
-  text-align: left;
+  text-align: center;
   width: 150px;
   height: 150px;
   padding: 5px;

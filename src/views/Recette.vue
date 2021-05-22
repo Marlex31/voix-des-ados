@@ -109,7 +109,6 @@
 
     <!-- testing -->
     <carousel :key="key"></carousel>
-    <div style="height: 500px;"></div>
     <button @click="test">CLICK ME</button>
 
 </div>
