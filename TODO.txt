@@ -1,9 +1,9 @@
 
+credit animista in info page
+
 dynamic layout on homepage to support window rescaling
 
 home and info navbar
-
-pulsate/bounce home button on 404 page
 
 hero animation like animista - separate route for it?
 
@@ -16,8 +16,6 @@ link to PDF version of site
 Ken Burns effect for still images
 
 fix flickity carousel and import css using cdn + align images to vertical center
-
-scroll to top btn
 
 animated link underline (https://www.britishmuseum.org/collection/object/A_1922-1214-25)
 
@@ -47,7 +45,8 @@ Chapter sidebar - akin to Vue docs
 
 draw svg on scroll
 
-
+pulsate/bounce home button on 404 page (might need removal when added navbar) -DONE-
+scroll to top btn -DONE-
 articleList component to view -DONE-
 first letter selector styling (drop cap) -DONE-
 Routing bug when sorting! -DONE-
