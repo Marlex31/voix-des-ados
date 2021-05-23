@@ -24,8 +24,6 @@ Ken Burns effect for still images
 
 fix flickity carousel and import css using cdn + align images to vertical center
 
-animated link underline (https://www.britishmuseum.org/collection/object/A_1922-1214-25)
-
 404 minigame - dino / 404 char eyes following pointer
 
 text fade in animations
@@ -53,28 +51,31 @@ Chapter sidebar - akin to Vue docs
 draw svg on scroll
 
 
-change culture filter icon -DONE-
-pulsate/bounce home button on 404 page (might need removal when added navbar) -DONE-
-scroll to top btn -DONE-
-articleList component to view -DONE-
-first letter selector styling (drop cap) -DONE-
-Routing bug when sorting! -DONE-
-weather iframe updating system -DONE-
-translate button names -DONE-
-change tab title for each page -DONE-
-tag icons instead of text -DONE-
-article routing by ID -DONE-
-align home grid -DONE-
+DONE
+
+animated link underline (https://www.britishmuseum.org/collection/object/A_1922-1214-25)
+change culture filter icon
+pulsate/bounce home button on 404 page (might need removal when added navbar)
+scroll to top btn
+articleList component to view
+first letter selector styling (drop cap)
+Routing bug when sorting!
+weather iframe updating system
+translate button names
+change tab title for each page
+tag icons instead of text
+article routing by ID
+align home grid
 Edge warning or test compatibility
-eiffel tower svg change active styling -DONE-
-give image sources -DONE-
-add contour to images -DONE-
-add cursor change on hover -DONE-
-alignment of all elements + white margin around main div -DONE-
-style filter buttons -DONE-
-scale SVG hero -DONE-
-use abbr tag for word definitions OR css tooltip -DONE-
-main page with svg hero and article flexbox/grid -DONE-
-read json with article list -DONE-
-add item with class from key and image/solid color -DONE-
-item with multiple tags -DONE-
+eiffel tower svg change active styling
+give image sources
+add contour to images
+add cursor change on hover
+alignment of all elements + white margin around main div
+style filter buttons
+scale SVG hero
+use abbr tag for word definitions OR css tooltip
+main page with svg hero and article flexbox/grid
+read json with article list
+add item with class from key and image/solid color
+item with multiple tags
