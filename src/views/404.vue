@@ -27,7 +27,6 @@ export default {
 
 <style scoped>
 
-
 .heartbeat {
 	animation: heartbeat 1.7s ease-in-out infinite both;
 }

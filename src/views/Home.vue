@@ -10,7 +10,7 @@
     <i :class="btnToggle(1)" title="Divertissement" class="btn fas fa-gamepad fa-3x" @click="reqSort"></i>
     <i :class="btnToggle(2)" title="Technologie" class="btn fas fa-desktop fa-3x" @click="reqSort"></i>
     <i :class="btnToggle(3)" title="Histoire" class="btn fas fa-landmark fa-3x" @click="reqSort"></i>
-    <i :class="btnToggle(4)" title="Culture" class="btn fas fa-book fa-3x" @click="reqSort"></i>
+    <i :class="btnToggle(4)" title="Culture" class="btn fas fa-mask fa-3x" @click="reqSort"></i>
     <i :class="btnToggle(5)" title="Gastronomie" class="btn fas fa-utensils fa-3x" @click="reqSort"></i>
     <i :class="btnToggle(6)" title="Geographie" class="btn fas fa-globe fa-3x" @click="reqSort"></i>
     <i :class="btnToggle(7)" title="Divers" class="btn fas fa-archive fa-3x" @click="reqSort"></i>
