@@ -5,14 +5,14 @@
     <h1 class="title" style="margin-top: 2.5%;">La Ç Cédille</h1>
 
     <div class="content">
-        Ç - appelé <i>c cédille</i> en français, est un graphème d'origine espagnole
-        (et pourtant disparu de la langue contemporaine) utilisé parmi les
-        alphabets catalan, français, frioulan, monégasque, occitan, portugais etc. comme
-        variante diacritée de la lettre « C ».
+        <span class="cap">Ç</span> - appelé <i>c cédille</i> en français, est un graphème d'origine espagnole
+        (et pourtant disparu de la langue contemporaine) utilisé parmi les alphabets
+        catalan, français, frioulan, monégasque, occitan, portugais etc. comme variante
+        diacritée de la lettre « C ».
         <br>
-        Le rôle de ce signe diacritique est de changer le son <b>/s/</b>, là où un simple ‹ c ›
-        aurait représenté le son <b>/k/</b> (principalement avant ‹ a ›, ‹ o ›, ‹ u › ou à
-        la fin d'un mot).
+        Le rôle de ce signe diacritique est de changer le son <b>/s/</b>,
+        là où un simple ‹ c › aurait représenté le son <b>/k/</b> (principalement avant
+        ‹ a ›, ‹ o ›, ‹ u › ou à la fin d'un mot).
     </div>
 
     <div class="flex-container" style="flex-direction: row; margin-bottom: 50px;">
@@ -43,22 +43,23 @@
             <p style="text-indent: 5%; padding-right:25px;">
                 <u>Geoffroy Tory</u> (1480-1533) était un imprimeur-libraire,  l'un des introducteurs des
                 caractères romains en France, qui a envisagé l'introduction de signes diacritiques
-                propres à la transcription de français, nottament la cédille, les apostrophes
+                propres à la transcription de français, notamment la cédille, les apostrophes
                 ainsi que l'accent grave et aigu.
             </p>
             <p style="text-indent: 5%; padding-right:25px;">
-                <abbr title="Au quel est contenu l’Art et Science de la deue et vraye Proportion des Lettres Attiques, qu’on dit autrement Lettres Antiques, et vulgairement Lettres Romaines proportionnees selon le Corps & Visage humain">
-                Champ fleury
+                <abbr title="Au quel est contenu l’Art et Science de la deue et vraye Proportion des Lettres Attiques, qu’on dit autrement Lettres Antiques, et vulgairement Lettres Romaines proportionnees selon le Corps & Visage humain.">
+                Champ Fleury
                 </abbr>
-                est l'une de ses œuvres les plus connues, dans laquelle il évoque l'utilisation corecte du
+                est l'une de ses œuvres les plus connues, dans laquelle il évoque l'utilisation correcte du
                 français, en parlant de l'élégance de l'alphabet et de la grammaire, parmi autres sujets.
-                Geoffroy Tory s'appuie sur <i>L’Homme de Vitruve</i> dans ses dessins de lettres.
-
             </p>
             <br>
         </div>
-        <img src="@/assets/linguistique/A-letter.png" style="height:200px;"
-                alt="Geoffroy Tory lettre A">
+        <div class="flex-container" style="font-size:22px; line-height: 1.1;">
+            <img src="@/assets/linguistique/A-letter.png" style="height:200px;"
+            alt="Geoffroy Tory lettre A">
+            Tory s'appuie sur <i>L’Homme de Vitruve</i> dans ses dessins de lettres.
+        </div>
     </div>
 
     <video style="display: block; margin: auto; margin-bottom:50px;"
@@ -67,23 +68,21 @@
         Ce format de vidéo n'est pas supporté par votre navigateur.
     </video>
 
-    <p>C'est grace à elle que la maçonnerie peut être tenue pour une activité professionelle.</p>
-    <ImgComparisonSlider>
-        <!-- eslint-disable -->
-        <img
-        slot="before"
-        style="width: 50%; margin:auto; display:block;"
-        src="@/assets/linguistique/macon.png"
-        />
-        <img
-        slot="after"
-        style="width: 50%; margin:auto; display:block;"
-        src="@/assets/linguistique/ma-con.png"
-        />
-        <!-- eslint-enable -->
-  </ImgComparisonSlider>
+    <div class="content" style="width:70%; margin:50px auto; padding:1px;">
+    <p style="text-align:center;">
+        C'est grâce à la cédille que la maçonnerie peut être tenue pour une
+        activité professionnelle.
+    </p>
+    </div>
+
+    <video style="display: block; margin: auto; margin-bottom:50px;"
+        height="400" autoplay muted controls loop>
+        <source src="@/assets/linguistique/connerie.mp4" type="video/mp4">
+        Ce format de vidéo n'est pas supporté par votre navigateur.
+    </video>
 
     <sources :links="sources_1"></sources>
+
 
     <h1 class="title" style="margin: 2.5% 0">Le Macron</h1>
 
@@ -108,9 +107,9 @@
         titres, par une procédure, sans bavures : un seul accent, horizontal, qu’on appelle couramment
         l’accent plat :
         <pre>
-        DEUX BUTS ENCAISSĒS
-        UN OUVRIER TUĒ
-        UN PIĒTON RENVERSĒ PAR SON FRĒRE.
+    DEUX BUTS ENCAISSĒS
+    UN OUVRIER TUĒ
+    UN PIĒTON RENVERSĒ PAR SON FRĒRE.
         </pre>
     </blockquote>
     </div>
@@ -123,11 +122,13 @@
     </video>
 
     <div>
-        <p style="text-align:center; font-size: 22px;">On peut conclure que le macron est pour ceux qui ont
-            un esprit indépendent, impartiel.</p>
+        <p style="text-align:center; font-size: 22px;">
+            On peut conclure que le macron est pour ceux qui ont un esprit
+            indépendent, impartiel.
+        </p>
         <br>
         <img src="@/assets/linguistique/macron.png" style="display:block; width:400px; margin:auto;"
-        alt="Caricature de President Macron">
+        alt="Caricature du President Macron">
     </div>
 
     <sources :links="sources_2"></sources>
@@ -136,13 +137,11 @@
 </template>
 
 <script>
-import { ImgComparisonSlider } from '@img-comparison-slider/vue';
 import sources from '../components/sources.vue'
 
 export default {
     components:{
-        sources,
-        ImgComparisonSlider
+        sources
     },
     mounted(){
         document.body.style.backgroundColor = "rgb(250, 200, 0)";
@@ -169,9 +168,7 @@ export default {
 </script>
 
 <style scoped>
-*{
-    font-family: cursive;
-}
+
 pre{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 90%;
@@ -180,12 +177,13 @@ pre{
 .quote{
     border-left: 4px solid;
     margin: 15px;
+    padding-left: 30px;
 }
 
 .sounds{
     font-size: 400%;
     text-align: center;
-    background: rgb(255, 166, 0);
+    background-color: rgb(255, 166, 0);
     margin: auto;
     width: 20%;
     padding: 1%;
@@ -201,20 +199,21 @@ pre{
     border-radius: 15px;
     line-height: 120%;
 }
-.content::first-letter{
+.cap{
     font-size: 300%;
     font-family: "Source Sans Pro";
     float: left;
     margin: 0.1em 0.1em 0.1em 0;
-    line-height: 0.65;
+    line-height: 1;
     background: #303030;
     color: #FDF9F2;
     padding: 0.3rem;
+    padding-bottom: 0.5rem;
 }
 
-#end{
+/* #end{
     opacity: 0;
-}
+} */
 
 .flex-container{
     display: flex;

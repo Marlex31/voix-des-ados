@@ -3,7 +3,7 @@
     <h1 style="margin-left: 3.5%;">Références:</h1>
     <ol style="font-size: 25px;">
         <li v-for="(link, item) in links" :key="item">
-            <a :href="link">{{ item }}</a>
+            <a :href="link" target="_blank">{{ item }}</a>
         </li>
     </ol>
 </div>
@@ -31,7 +31,7 @@ a::after {
   left: 0;
   width: 100%;
   height: 0.1em;
-  background-color: black;
+  background-color: #4e4e4e;
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
 }
@@ -44,6 +44,9 @@ a::after {
 a:hover::after,
 a:focus::after{
   transform: scale(0);
+}
+a:visited{
+    color: inherit;
 }
 
 li{
