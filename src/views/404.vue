@@ -38,7 +38,7 @@ export default {
     animation-timing-function: ease-out;
   }
   10% {
-    transform: scale(0.91);
+    transform: scale(0.96);
     animation-timing-function: ease-in;
   }
   17% {
@@ -46,7 +46,7 @@ export default {
     animation-timing-function: ease-out;
   }
   33% {
-    transform: scale(0.87);
+    transform: scale(0.94);
     animation-timing-function: ease-in;
   }
   45% {

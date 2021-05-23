@@ -29,6 +29,10 @@ export default {
 
 <style>
 
+abbr:hover{
+  cursor: help;
+}
+
 .arrow{
   margin-left:auto;
   margin-right: 2.5%;

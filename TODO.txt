@@ -1,11 +1,15 @@
 
-credit animista in info page
+animate colors for hero
+
+add tooltip to global styles + help cursor for it and abbr
+
+credit animista in about page
 
 dynamic layout on homepage to support window rescaling
 
-home and info navbar
+home and about hrefs navbar
 
-hero animation like animista - separate route for it?
+hero animation like animista - separate view for it?
 
 different font for linguistics article
 
