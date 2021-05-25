@@ -130,7 +130,7 @@ export default{
     data(){
         return{
             key: 0,
-            links: {"Rețetă clafoutis": "https://retete.unica.ro/recipes/clafoutis-cu-cirese/"}
+            links: {"Recette de clafoutis": "https://retete.unica.ro/recipes/clafoutis-cu-cirese/"}
         }
     },
     methods: {
@@ -152,7 +152,7 @@ svg{
 .text-box{
     margin: auto;
     background-color: rgb(253, 201, 110);
-    padding: 25px;
+    padding: 10px 25px;
     border: 1px solid black;
     border-radius: 10px;
     max-width: 60%;

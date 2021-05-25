@@ -71,7 +71,7 @@
     <div class="content" style="width:70%; margin:50px auto; padding:1px;">
     <p style="text-align:center;">
         C'est grâce à la cédille que la maçonnerie peut être tenue pour une
-        activité professionnelle.
+        activité professionnelle :
     </p>
     </div>
 
@@ -167,7 +167,10 @@ export default {
 }
 </script>
 
-<style scoped>
+
+<style lang="scss" scoped>
+
+$primary-fg: orange;
 
 pre{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -183,7 +186,7 @@ pre{
 .sounds{
     font-size: 400%;
     text-align: center;
-    background-color: rgb(255, 166, 0);
+    background-color: $primary-fg;
     margin: auto;
     width: 20%;
     padding: 1%;
@@ -195,7 +198,7 @@ pre{
     margin: 30px;
     padding: 20px;
     font-size: 24px;
-    background-color: rgb(255, 166, 0);
+    background-color: $primary-fg;
     border-radius: 15px;
     line-height: 120%;
 }
