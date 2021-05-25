@@ -4,7 +4,7 @@ infinite scroll (easier to use) OR next article button (more control)
 
 animate colors for hero
 
-add tooltip to global styles + help cursor for it and abbr
+add custom tooltip to global styles
 
 credit animista in about page
 
@@ -13,8 +13,6 @@ dynamic layout on homepage to support window rescaling
 home and about hrefs navbar (anchor to page bottom)
 
 hero animation like animista - separate view for it?
-
-different font for linguistics article
 
 comparison slider for fashion article, between grayscale and colored images
 
@@ -38,8 +36,6 @@ bounce anim for items instead of scaling
 
 article preview
 
-choose color pallette or use SCSS for easy changes
-
 shorten writing.mp4
 
 change tab logo
@@ -53,6 +49,8 @@ draw svg on scroll
 
 DONE
 
+different font for linguistics article
+choose color pallette or use SCSS for easy changes
 animated link underline (https://www.britishmuseum.org/collection/object/A_1922-1214-25)
 change culture filter icon
 pulsate/bounce home button on 404 page (might need removal when added navbar)

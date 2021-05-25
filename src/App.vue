@@ -28,7 +28,9 @@ export default {
 </script>
 
 <style>
-
+abbr{
+  text-decoration: solid underline white 2px;
+}
 abbr:hover{
   cursor: help;
 }

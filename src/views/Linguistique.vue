@@ -17,11 +17,11 @@
 
     <div class="flex-container" style="flex-direction: row; margin-bottom: 50px;">
         <div class="sounds">
-            ç<span style="color: #2c3e50;">a</span> [sa]
+            ç<span class="phonology">a</span> [sa]
             <br>
-            ç<span style="color: #2c3e50;">a</span> [so]
+            ç<span class="phonology">a</span> [so]
             <br>
-            ç<span style="color: #2c3e50;">a</span> [su]
+            ç<span class="phonology">a</span> [su]
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40" width="150px" >
@@ -30,11 +30,11 @@
         </svg>
 
         <div class="sounds">
-            c<span style="color: #2c3e50;">a</span> [ka]
+            c<span class="phonology">a</span> [ka]
             <br>
-            c<span style="color: #2c3e50;">a</span> [ko]
+            c<span class="phonology">a</span> [ko]
             <br>
-            c<span style="color: #2c3e50;">a</span> [ku]
+            c<span class="phonology">a</span> [ku]
         </div>
     </div>
 
@@ -69,10 +69,10 @@
     </video>
 
     <div class="content" style="width:70%; margin:50px auto; padding:1px;">
-    <p style="text-align:center;">
-        C'est grâce à la cédille que la maçonnerie peut être tenue pour une
-        activité professionnelle :
-    </p>
+        <p style="text-align:center;">
+            C'est grâce à la cédille que la maçonnerie peut être tenue pour une
+            activité professionnelle :
+        </p>
     </div>
 
     <video style="display: block; margin: auto; margin-bottom:50px;"
@@ -81,7 +81,7 @@
         Ce format de vidéo n'est pas supporté par votre navigateur.
     </video>
 
-    <sources :links="sources_1"></sources>
+    <sources class="phonology" :links="sources_1"></sources>
 
 
     <h1 class="title" style="margin: 2.5% 0">Le Macron</h1>
@@ -121,17 +121,17 @@
         Ce format de vidéo n'est pas supporté par votre navigateur.
     </video>
 
-    <div>
-        <p style="text-align:center; font-size: 22px;">
+    <div class="content" style="width:70%; margin:50px auto; padding:1px;">
+        <p style="text-align:center;">
             On peut conclure que le macron est pour ceux qui ont un esprit
             indépendent, impartiel.
         </p>
-        <br>
-        <img src="@/assets/linguistique/macron.png" style="display:block; width:400px; margin:auto;"
-        alt="Caricature du President Macron">
     </div>
+    <br>
+    <img src="@/assets/linguistique/macron.png" style="display:block; width:400px; margin:auto;"
+    alt="Caricature du President Macron">
 
-    <sources :links="sources_2"></sources>
+    <sources class="phonology" :links="sources_2"></sources>
 
 </div>
 </template>
@@ -144,7 +144,7 @@ export default {
         sources
     },
     mounted(){
-        document.body.style.backgroundColor = "rgb(250, 200, 0)";
+        document.body.style.backgroundColor = "#98C1D9";
     },
     data(){
         return{
@@ -170,7 +170,22 @@ export default {
 
 <style lang="scss" scoped>
 
-$primary-fg: orange;
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+$primary-fg: #EE6C4D;
+$font: #E0FBFC;
+
+.phonology{
+    color: #293241
+}
+
+.title{
+    color: #3D5A80; // enough cotrast?
+}
+
+*{
+    color: $font;
+}
 
 pre{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -179,6 +194,7 @@ pre{
 
 .quote{
     border-left: 4px solid;
+    border-color: #293241;
     margin: 15px;
     padding-left: 30px;
 }
@@ -191,13 +207,14 @@ pre{
     width: 20%;
     padding: 1%;
     border-radius: 15px;
-    color: white;
+    color: $font;
 }
 
 .content{
+    font-family: 'Merriweather', serif;
     margin: 30px;
     padding: 20px;
-    font-size: 24px;
+    font-size: 22px;
     background-color: $primary-fg;
     border-radius: 15px;
     line-height: 120%;
@@ -209,14 +226,10 @@ pre{
     margin: 0.1em 0.1em 0.1em 0;
     line-height: 1;
     background: #303030;
-    color: #FDF9F2;
+    color: $font;
     padding: 0.3rem;
     padding-bottom: 0.5rem;
 }
-
-/* #end{
-    opacity: 0;
-} */
 
 .flex-container{
     display: flex;
