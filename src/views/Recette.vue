@@ -108,7 +108,8 @@
 
     <!-- testing -->
     <carousel :key="key"></carousel>
-    <button @click="test">CLICK ME</button>
+    <!-- Not even working anymore -->
+    <!-- <button @click="test">CLICK ME</button> -->
 
     <sources :links="links"></sources>
 

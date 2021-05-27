@@ -1,3 +1,7 @@
+3d model
+
+terminal writing for interview questions
+
 reading progress bar at top
 
 article thumbnails

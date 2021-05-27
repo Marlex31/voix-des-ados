@@ -18,6 +18,10 @@ export default {
 
 <style scoped>
 
+li{
+  padding: 2px;
+}
+
 a{
   position: relative;
   padding: 0.1em 0;
