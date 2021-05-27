@@ -136,6 +136,7 @@ export default {
   border-radius: 5px;
   box-shadow: 2px 2px 5px grey;
   transition: all .2s ease-in-out;
+  font-size: 50px;
 }
 .btn:hover{
   background-color: chartreuse;

@@ -41,6 +41,12 @@ const routes = [
   }
   ,
   {
+    path: '/1',
+    name: 'Modelling',
+    component: () => import('../views/Modelling.vue')
+  }
+  ,
+  {
     path: '/:pathMatch(.*)',
     name: 'Page non trouvée',
     component: () => import('../views/404.vue')

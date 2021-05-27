@@ -1,7 +1,7 @@
 <template>
 <div class="content">
     <h1 class="title">Clafoutis aux cerises</h1>
-    <h2 class="title">Cătinean Larisa-Maria</h2>
+    <h2 class="title">Cătinean Larisa</h2>
 
     <div class="container">
         <img src="@/assets/tarte/tarte.jpg" alt="Tarte" style="width: 100%;">
@@ -156,6 +156,7 @@ svg{
     border: 1px solid black;
     border-radius: 10px;
     max-width: 60%;
+    font-size: 25px;
 }
 
 

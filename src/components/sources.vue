@@ -1,7 +1,7 @@
 <template>
 <div>
-    <h1 style="margin-left: 3.5%;">Références:</h1>
-    <ol style="font-size: 25px;">
+    <h1 style="margin-left: 3.5%;">Références :</h1>
+    <ol>
         <li v-for="(link, item) in links" :key="item">
             <a :href="link" target="_blank">{{ item }}</a>
         </li>

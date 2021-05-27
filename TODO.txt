@@ -1,3 +1,5 @@
+reading progress bar at top
+
 article thumbnails
 
 infinite scroll (easier to use) OR next article button (more control)
@@ -8,13 +10,11 @@ add custom tooltip to global styles
 
 credit animista in about page
 
-dynamic layout on homepage to support window rescaling
+better mobile support?
 
-home and about hrefs navbar (anchor to page bottom)
+home and about hrefs navbar (anchor to page bottom) (+ tech stack ?)
 
 hero animation like animista - separate view for it?
-
-comparison slider for fashion article, between grayscale and colored images
 
 link to PDF version of site
 
@@ -34,7 +34,7 @@ fix dependency security issues
 
 bounce anim for items instead of scaling
 
-article preview
+article preview - toggle name option and name filter
 
 shorten writing.mp4
 
@@ -49,6 +49,7 @@ draw svg on scroll
 
 DONE
 
+comparison slider for fashion article, between grayscale and colored images
 different font for linguistics article
 choose color pallette or use SCSS for easy changes
 animated link underline (https://www.britishmuseum.org/collection/object/A_1922-1214-25)

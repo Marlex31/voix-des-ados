@@ -57,12 +57,13 @@ abbr:hover{
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   color: #2c3e50;
+  font-size: 24px;
 }
 
 .title{
   text-align: center;
   margin: auto;
-  margin-top: 10px;
+  margin: 15px 0;
 }
 
 </style>
