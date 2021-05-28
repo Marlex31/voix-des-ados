@@ -7,10 +7,14 @@
         <div class="flex-row">
             <p class="content" style="margin:100px;">
                 Samsung a ouvert le concept de téléphone "Ultra" en 2020. C’est parce que <i>Pro</i> et <i>Plus</i> n’étaient plus assez dans une série de drapeaux. Si "Fagship" traduit le navire amiral apai S20 Ultra était une sorte de destroyer ou de croiseur. Cependant, l’énorme 6,9
-                <a class="has-tooltip">pouces
+                <a class="has-tooltip"> pouces
                     <span class="tooltip tooltip-top">Inch, unité du mesure du Système d'unités impériales</span>
                 </a>
-                était expérimental sur certains chapitres (lecteur d’empreintes digitales, capture closeup, CPU Exynos 990). L’ouverture du zoom 100X et de la rediffusion 120 Hz sur un téléphone Samsung, mais il a également apporté un corps énorme et dolite de la technologie supérieure.
+                était expérimental sur certains chapitres (lecteur d’empreintes digitales, capture close-up,
+                <a class="has-tooltip"> UTC
+                    <span class="tooltip tooltip-top">unité centrale de traitement, le processeur</span>
+                </a>
+                Exynos 990). L’ouverture du zoom 100X et de la rediffusion 120 Hz sur un téléphone Samsung, mais il a également apporté un corps énorme et dolite de la technologie supérieure.
             </p>
             <img src="@/assets/misc/galaxy.png" alt="S21 image">
         </div>

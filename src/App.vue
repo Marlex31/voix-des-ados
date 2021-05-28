@@ -20,7 +20,7 @@ export default {
   },
   methods:{
     scrollTop(){
-        console.log(window.scrollY);
+        // console.log(window.scrollY);
         window.scrollTo(0, 0);
     }
   }

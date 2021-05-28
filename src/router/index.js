@@ -16,7 +16,7 @@ const routes = [
   },
   {
     path: '/14',
-    name: 'Recette',
+    name: 'Récette de clafoutis aux cerises',
     component: () => import('../views/Recette.vue')
   },
   {
@@ -31,7 +31,7 @@ const routes = [
   },
   {
     path: '/21',
-    name: 'Linguistique',
+    name: 'Obscurités diacriques',
     component: () => import('../views/Linguistique.vue')
   },
   {
@@ -42,13 +42,13 @@ const routes = [
   ,
   {
     path: '/1',
-    name: 'Modelling',
+    name: 'Tenues emblématiques de célébrités',
     component: () => import('../views/Modelling.vue')
   }
   ,
   {
     path: '/5',
-    name: 'Review',
+    name: 'Revue du Samsung Galaxy S21',
     component: () => import('../views/Review.vue')
   }
   ,

@@ -1,3 +1,5 @@
+media query to warn users against browsing on mobile
+
 add ref to main div and script to app to copy the bg color, allowing full css styling
 
 add common css classes to the global scope

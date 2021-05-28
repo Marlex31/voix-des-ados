@@ -64,7 +64,7 @@ export default {
     defaultList: jsonList,
     lastReq: null,
     activeIndex: null
-  }
+    }
   },
   methods:{
     route(e){
