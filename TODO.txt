@@ -1,4 +1,10 @@
-3d model
+add ref to main div and script to app to copy the bg color, allowing full css styling
+
+add common css classes to the global scope
+
+football cup 360 image stadium
+
+minecraft 360 vid tour
 
 terminal writing for interview questions
 
@@ -8,7 +14,7 @@ article thumbnails
 
 infinite scroll (easier to use) OR next article button (more control)
 
-animate colors for hero
+liven up hero - color, gradient animation etc
 
 add custom tooltip to global styles
 
@@ -26,7 +32,7 @@ Ken Burns effect for still images
 
 fix flickity carousel and import css using cdn + align images to vertical center
 
-404 minigame - dino / 404 char eyes following pointer
+404 minigame - dino / 404 char eyes following pointer / popup spam on route decline (like anilist)
 
 text fade in animations
 
@@ -53,6 +59,7 @@ draw svg on scroll
 
 DONE
 
+3d model
 comparison slider for fashion article, between grayscale and colored images
 different font for linguistics article
 choose color pallette or use SCSS for easy changes

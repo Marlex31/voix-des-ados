@@ -94,7 +94,7 @@
         <h2>Étapes :</h2>
         <ol style="padding-left: 2%">
             <li>
-            <a class="has-tooltip">Fouettez
+            <a class="has-tooltip"> Fouettez
                 <span class="tooltip tooltip-top">Amestecați cu telul</span>
             </a>
             les oeufs et le sucre dans un bol, puis ajoutez le beurre fondu.</li>
@@ -158,65 +158,6 @@ svg{
     border-radius: 10px;
     max-width: 60%;
     font-size: 25px;
-}
-
-
-a{
-    text-decoration-line: underline;
-    text-decoration-color: black;
-    text-decoration-style: dotted;
-    cursor: help;
-}
-
-/* =Tooltip Style -------------------- */
-
-/* Tooltip Wrapper */
-.has-tooltip {
-  position: relative;
-}
-.has-tooltip .tooltip {
-  opacity: 0;
-  visibility: hidden;
-  transition: visibility 0s ease 0.5s, opacity .3s ease-in;
-}
-.has-tooltip:hover .tooltip {
-  opacity: 1;
-  visibility: visible;
-}
-
-/* Tooltip Body */
-.tooltip {
-  background-color: #222;
-  bottom: 130%;
-  color: #fff;
-  font-size: 16px;
-  text-indent: 0px;
-  left: 50%;
-  margin-left: -56px;
-  padding: 6px;
-  position: absolute;
-  text-align: center;
-  width: 120px;
-  z-index: 4;
-  border-radius: 3px;
-  text-decoration: none;
-  text-shadow: none;
-}
-
-/* Tooltip Caret */
-.tooltip:after {
-  border-top: 5px solid rgb(85, 85, 85);
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  bottom: -5px;
-  content: " ";
-  font-size: 0px;
-  left: 50%;
-  line-height: 0%;
-  margin-left: -4px;
-  position: absolute;
-  width: 0px;
-  z-index: 1;
 }
 
 .flex-container{

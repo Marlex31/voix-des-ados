@@ -47,6 +47,12 @@ const routes = [
   }
   ,
   {
+    path: '/5',
+    name: 'Review',
+    component: () => import('../views/Review.vue')
+  }
+  ,
+  {
     path: '/:pathMatch(.*)',
     name: 'Page non trouvée',
     component: () => import('../views/404.vue')
