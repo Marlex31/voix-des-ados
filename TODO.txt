@@ -1,7 +1,5 @@
 media query to warn users against browsing on mobile
 
-add ref to main div and script to app to copy the bg color, allowing full css styling
-
 add common css classes to the global scope
 
 football cup 360 image stadium
@@ -51,10 +49,6 @@ article preview - toggle name option and name filter
 shorten writing.mp4
 
 change tab logo
-
-chapter dropdown menu with 3d transform, akin to hl final hour
-OR
-Chapter sidebar - akin to Vue docs
 
 draw svg on scroll
 

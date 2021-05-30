@@ -106,10 +106,7 @@
         </ol>
     </div>
 
-    <!-- testing -->
-    <carousel :key="key"></carousel>
-    <!-- Not even working anymore -->
-    <!-- <button @click="test">CLICK ME</button> -->
+    <carousel/>
 
     <sources :links="links"></sources>
 
@@ -136,8 +133,7 @@ export default{
     },
     methods: {
         test(){
-            this.key +=1
-            console.log(this.key);
+            this.$forceUpdate()
         }
     }
 }

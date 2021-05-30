@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="main-carousel" ref="carousel">
+        <div ref="carousel">
             <img class="carousel-cell" src="@/assets/tarte/tarte-cut.jpg">
             <img class="carousel-cell" src="@/assets/tarte/tarte-closeup.jpg">
             <img class="carousel-cell" src="@/assets/tarte/tarte-pan.jpg">
@@ -17,21 +17,16 @@ export default {
     name: "carousel",
     mounted(){
         new Flickity(this.$refs['carousel'], {
-        // options
-        cellAlign: 'center',
-        wrapAround: true,
-        // contain: true
+            // options
+            cellAlign: 'center',
+            wrapAround: true,
+            // contain: true
         });
     }
 }
 </script>
 
 <style scoped>
-
-.main-carousel{
-    /* width: 100%;
-    height: auto; */
-}
 
 .carousel-cell{
     width: 50%;
