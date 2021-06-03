@@ -94,8 +94,8 @@
         <h2>Étapes :</h2>
         <ol style="padding-left: 2%">
             <li>
-            <a class="has-tooltip"> Fouettez
-                <span class="tooltip tooltip-top">Amestecați cu telul</span>
+            <a class="has-tooltip">
+                Fouettez<span class="tooltip tooltip-top">Battre au fouet des blancs d'œufs ou une préparation.</span>
             </a>
             les oeufs et le sucre dans un bol, puis ajoutez le beurre fondu.</li>
             <li>Ajoutez ensuite le lait.</li>

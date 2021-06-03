@@ -172,7 +172,7 @@ export default {
 
  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
-$primary-fg: #EE6C4D;
+$primary-fg: #e77254ee;
 $font: #E0FBFC;
 
 .phonology{
@@ -214,7 +214,6 @@ pre{
     font-family: 'Merriweather', serif;
     margin: 30px;
     padding: 20px;
-    font-size: 22px;
     background-color: $primary-fg;
     border-radius: 15px;
     line-height: 120%;

@@ -65,10 +65,8 @@
             </p>
             <p>
                 La robe, une robe de soirée en
-                <a class="has-tooltip"> soie
-                    <span class="tooltip tooltip-top">
-                        Fil souple et résistant produit par la larve de divers papillons
-                    </span>
+                <a class="has-tooltip">
+                    soie<span class="tooltip tooltip-top">Fil souple et résistant produit par la larve de divers papillons</span>
                 </a>
                 noire à épaules dénudées, a été conçue par Christina Stambolian qui a comparé le choix du noir de Diana au cygne noir Odile dans le ballet de Tchaïkovski - <i>Le lac des cygnes</i>, déclarant que Diana <i>a choisi de ne pas jouer la scène comme Odette, innocente en blanc, elle l'a joué comme Odile. Elle était clairement en colère.</i>
             </p>
@@ -106,11 +104,9 @@
     <div class="flex-row">
         <p class="content">
             Avant les années 1920, les femmes portaient du noir pendant le
-            <a class="has-tooltip"> deuil
-                <span class="tooltip tooltip-top">
-                    Douleur, affliction éprouvée à la suite du décès de quelqu'un
-                </span>
-            </a>
+            <a class="has-tooltip">
+                deuil<span class="tooltip tooltip-top">Douleur, affliction éprouvée à la suite du décès de quelqu'un</span>
+                </a>
             . Il était considéré comme désagréable de le porter à toute autre occasion. Cette idée préconçue a été démolie en 1926, lorsque le magazine Vogue a publié un croquis d’une robe noire. Vogue a déclaré que la robe était<i>une sorte d'uniforme pour toutes les femmes de goût</i>. À partir de ce moment, la petite robe noire est devenue très populaire.
             Coco Chanel était rarement vue sans perles autour du cou. Avec ses fausses perles et or, c'est elle qui a introduit les faux bijoux dans le courant dominant. Coco a estimé que si les femmes pouvaient acheter des bijoux plus abordables que de vraies pierres précieuses, elles pourraient accessoiriser correctement chaque tenue qu'elles avaient, plutôt que de s'en tenir à quelques pièces simples.
         </p>
@@ -219,6 +215,7 @@ export default {
 }
 
 .content{
+    text-align: justify;
     color: #FDFCDC;
     font-size: 24px;
     margin: 50px;
