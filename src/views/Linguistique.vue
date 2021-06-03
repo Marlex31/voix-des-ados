@@ -1,18 +1,20 @@
 <template>
 <div>
-    <h1 class="title">Obscurités diacriques</h1>
-    <h3 class="title">Merilă Alexandru</h3>
-    <h2 class="title">La Ç Cédille</h2>
+    <h1 class="title" style="color: #e87a5b;">Obscurités diacriques</h1>
+    <h3 class="title" style="color: #e87a5b;">Merilă Alexandru</h3>
+    <h2 class="title" style="color: #e87a5b;">La Ç Cédille</h2>
 
     <div class="content">
-        <span class="cap">Ç</span> - appelé <i>c cédille</i> en français, est un graphème d'origine espagnole
-        (et pourtant disparu de la langue contemporaine) utilisé parmi les alphabets
-        catalan, français, frioulan, monégasque, occitan, portugais etc. comme variante
-        diacritée de la lettre « C ».
-        <br>
-        Le rôle de ce signe diacritique est de changer le son <b>/s/</b>,
-        là où un simple ‹ c › aurait représenté le son <b>/k/</b> (principalement avant
-        ‹ a ›, ‹ o ›, ‹ u › ou à la fin d'un mot).
+        <p>
+            Ç - appelé <i>c cédille</i> en français, est un graphème d'origine espagnole
+            (et pourtant disparu de la langue contemporaine) utilisé parmi les alphabets
+            catalan, français, frioulan, monégasque, occitan, portugais etc. comme variante
+            diacritée de la lettre « C ».
+            <br>
+            Le rôle de ce signe diacritique est de changer le son <b>/s/</b>,
+            là où un simple ‹ c › aurait représenté le son <b>/k/</b> (principalement avant
+            ‹ a ›, ‹ o ›, ‹ u › ou à la fin d'un mot).
+        </p>
     </div>
 
     <div class="flex-container" style="flex-direction: row; margin-bottom: 50px;">
@@ -40,13 +42,13 @@
 
     <div class="flex-container content" style="flex-direction: row; margin-bottom: 50px;">
         <div>
-            <p style="text-indent: 5%; padding-right:25px;">
+            <p>
                 <u>Geoffroy Tory</u> (1480-1533) était un imprimeur-libraire,  l'un des introducteurs des
                 caractères romains en France, qui a envisagé l'introduction de signes diacritiques
                 propres à la transcription de français, notamment la cédille, les apostrophes
                 ainsi que l'accent grave et aigu.
             </p>
-            <p style="text-indent: 5%; padding-right:25px;">
+            <p>
                 <abbr title="Au quel est contenu l’Art et Science de la deue et vraye Proportion des Lettres Attiques, qu’on dit autrement Lettres Antiques, et vulgairement Lettres Romaines proportionnees selon le Corps & Visage humain.">
                 Champ Fleury
                 </abbr>
@@ -55,46 +57,44 @@
             </p>
             <br>
         </div>
-        <div class="flex-container" style="font-size:22px; line-height: 1.1;">
+        <div class="flex-container" style="background-color:#e77254ee; border-radius:25px; padding: 15px 0;">
             <img src="@/assets/linguistique/A-letter.png" style="height:200px;"
             alt="Geoffroy Tory lettre A">
             Tory s'appuie sur <i>L’Homme de Vitruve</i> dans ses dessins de lettres.
         </div>
     </div>
 
-    <video style="display: block; margin: auto; margin-bottom:50px;"
-        height="400" autoplay muted controls loop>
+    <video height="400" autoplay muted controls loop>
         <source src="@/assets/linguistique/Formation.mp4" type="video/mp4">
         Ce format de vidéo n'est pas supporté par votre navigateur.
     </video>
 
-    <div class="content" style="width:70%; margin:50px auto; padding:1px;">
-        <p style="text-align:center;">
+    <div class="content">
+        <p>
             C'est grâce à la cédille que la maçonnerie peut être tenue pour une
             activité professionnelle :
         </p>
     </div>
 
-    <video style="display: block; margin: auto; margin-bottom:50px;"
-        height="400" autoplay muted controls loop>
+    <video height="400" autoplay muted controls loop>
         <source src="@/assets/linguistique/connerie.mp4" type="video/mp4">
         Ce format de vidéo n'est pas supporté par votre navigateur.
     </video>
 
-    <sources class="phonology" :links="sources_1"></sources>
+    <sources style="color: black" :links="sources_1"></sources>
 
 
-    <h1 class="title" style="margin: 2.5% 0">Le Macron</h1>
+    <h1 class="title" style="color: #e87a5b;">Le Macron</h1>
 
     <div class="content">
-         <p style="text-indent: 5%;">
-            Le macron ‹ ◌̄ › est un diacritique de plusieurs alphabets : latin, grec et cyrillique,
+         <p>
+            Le macron <span style="font-family:'Avenir'">‹ ◌̄ ›</span> est un diacritique de plusieurs alphabets : latin, grec et cyrillique,
             placé plus souvent sur une voyelle. En philologie il indique que la voyelle qu'il affecte
             a une prononciation longue, par opposition à une
-            <abbr title="Du latin brevis, « court »)">brève</abbr>
-            (‹ ◌̆ ›), qui note une voyelle courte.
+            <abbr title="Du latin « brevis », court)">brève</abbr>
+            (<span style="font-family:'Avenir'">‹ ◌̆ ›</span>), qui note une voyelle courte.
         </p>
-        <p style="text-indent: 5%;">
+        <p>
             En français, il n'est pas utilisé à part les transcriptions de termes étrangers et
             d'être un pis-aller dans les cas d'incertitude en choisir le propre accent. La
             linguiste <i>Nina Catach</i> a proposé en 1989 un usage du macron dans la presse :
@@ -115,14 +115,13 @@
     </div>
 
 
-    <video style="display: block; margin: auto; margin-bottom:50px;"
-    height="400" autoplay muted controls loop>
+    <video height="400" autoplay muted controls loop>
         <source src="@/assets/linguistique/Formation-2.mp4" type="video/mp4">
         Ce format de vidéo n'est pas supporté par votre navigateur.
     </video>
 
-    <div class="content" style="width:70%; margin:50px auto; padding:1px;">
-        <p style="text-align:center;">
+    <div class="content" style="width:75%; margin:auto;">
+        <p>
             On peut conclure que le macron est pour ceux qui ont un esprit
             indépendent, impartiel.
         </p>
@@ -131,7 +130,7 @@
     <img src="@/assets/linguistique/macron.png" style="display:block; width:400px; margin:auto;"
     alt="Caricature du President Macron">
 
-    <sources class="phonology" :links="sources_2"></sources>
+    <sources style="color: black" :links="sources_2"></sources>
 
 </div>
 </template>
@@ -144,7 +143,7 @@ export default {
         sources
     },
     mounted(){
-        document.body.style.backgroundColor = "#98C1D9";
+        document.body.style.backgroundColor = "#f9eec6";
     },
     data(){
         return{
@@ -170,64 +169,60 @@ export default {
 
 <style lang="scss" scoped>
 
- @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 $primary-fg: #e77254ee;
-$font: #E0FBFC;
+
+video{
+    display: block;
+    margin: auto;
+    padding: 30px 0;
+}
+
+p, pre, .quote{
+    text-align: justify;
+    margin-left: 8%;
+    line-height: 1.58em;
+    font-family: "Roboto Mono", monospace;
+    padding: 0 30px;
+}
 
 .phonology{
-    color: #293241
+    color: white
 }
 
 .title{
     color: #3D5A80; // enough cotrast?
 }
 
-*{
-    color: $font;
-}
-
 pre{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 90%;
 }
 
 .quote{
     border-left: 4px solid;
-    border-color: #293241;
-    margin: 15px;
+    border-color: #6497f0;
     padding-left: 30px;
+    padding-top: 10px;
 }
 
 .sounds{
-    font-size: 400%;
+    font-size: 300%;
     text-align: center;
     background-color: $primary-fg;
     margin: auto;
+    margin: 15px auto;
     width: 20%;
     padding: 1%;
     border-radius: 15px;
-    color: $font;
 }
 
 .content{
-    font-family: 'Merriweather', serif;
-    margin: 30px;
-    padding: 20px;
-    background-color: $primary-fg;
-    border-radius: 15px;
-    line-height: 120%;
-}
-.cap{
-    font-size: 300%;
-    font-family: "Source Sans Pro";
-    float: left;
-    margin: 0.1em 0.1em 0.1em 0;
-    line-height: 1;
-    background: #303030;
-    color: $font;
-    padding: 0.3rem;
-    padding-bottom: 0.5rem;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(rgb(243, 186, 186) .1em, transparent .1em);
+    background-size: 100% 1.5em;
+    padding: 10px 0;
 }
 
 .flex-container{
@@ -237,7 +232,7 @@ pre{
 }
 
 .letter{
-    font-size: 125px;
+    font-size: 200%;
     font-family: 'Times New Roman', Times, serif;
 }
 

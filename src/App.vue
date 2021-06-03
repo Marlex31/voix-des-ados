@@ -89,7 +89,7 @@ a.has-tooltip{
 
 
 abbr{
-  text-decoration: solid underline white 2px;
+  text-decoration: solid underline inherit 2px;
 }
 abbr:hover{
   cursor: help;

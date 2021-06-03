@@ -90,7 +90,7 @@ export default {
 .content{
     margin: 50px 200px;
     padding: 45px;
-    background-color: #a3a37a;
+    background-color: #acac79;
     color: rgba(0, 0, 0, 0.822);
     border-radius: 5px;
     text-align: justify;
