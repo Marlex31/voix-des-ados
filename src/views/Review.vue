@@ -6,7 +6,7 @@
 
         <div class="flex-row">
             <p class="content" style="margin:100px;">
-                Samsung a ouvert le concept de téléphone <i>Ultra</i> en 2020. C’est parce que <i>Pro</i> et <i>Plus</i> n’étaient plus assez dans une série de drapeaux. Si "Fagship" traduit le navire amiral apai S20 <i>Ultra</i> était une sorte de destroyer ou de croiseur. Cependant, l’énorme 6,9
+                Samsung a ouvert le concept de téléphone <i>Ultra</i> en 2020. C’est parce que <i>Pro</i> et <i>Plus</i> n’étaient plus assez dans une série de drapeaux. Si "Flagship" traduit le navire amiral apai S20 <i>Ultra</i> était une sorte de destroyer ou de croiseur. Cependant, l’énorme 6,9
                 <a class="has-tooltip">pouces<span class="tooltip tooltip-top">Inch, unité du mesure du Système d'unités impériales</span></a>
                 était expérimental sur certains chapitres (lecteur d’empreintes digitales, capture close-up,
                 <a class="has-tooltip">UTC<span class="tooltip tooltip-top">Unité centrale de traitement, le processeur</span></a>
@@ -42,7 +42,7 @@
             Pour conclure, Samsung Galaxy S21 <i>Ultra</i> 5G peut être recommandé à ceux qui ont de l’argent pour voyager dans de superbes endroits, qui mérite photo avec le meilleur package optique sur le marché au début de 2021. L’appareil photo ultra large se comporte grand jour, nous savions déjà qu’à la vitesse de mise au point et le Samsung Food Photo n’a pas de rival et détient sa couronne.
         </p>
 
-        <div>
+        <div style="color:white;">
             <iframe style="display:block; margin:auto;" title="Samsung Galaxy S21 Ultra"
             frameborder="0" allowfullscreen mozallowfullscreen="true"
             webkitallowfullscreen="true" allow="fullscreen; autoplay; vr"
@@ -52,13 +52,13 @@
             </iframe>
             <p style="text-align:center; font-weight: normal; margin: 5px;">
             <a href="https://sketchfab.com/3d-models/samsung-galaxy-s21-ultra-ffeda3b600094a8d91912c83df2ce9ed?utm_medium=embed&utm_campaign=share-popup&utm_content=ffeda3b600094a8d91912c83df2ce9ed"
-            target="_blank" style="font-weight: bold; color: #1CAAD9;"> Samsung Galaxy S21 Ultra
+            target="_blank"> Samsung Galaxy S21 Ultra
             </a> par
             <a href="https://sketchfab.com/rossty3d?utm_medium=embed&utm_campaign=share-popup&utm_content=ffeda3b600094a8d91912c83df2ce9ed"
-            target="_blank" style="font-weight: bold; color: #1CAAD9;"> Rossty
+            target="_blank"> Rossty
             </a> sur
             <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=ffeda3b600094a8d91912c83df2ce9ed"
-            target="_blank" style="font-weight: bold; color: #1CAAD9;"> Sketchfab
+            target="_blank"> Sketchfab
             </a>
             </p>
         </div>
@@ -71,7 +71,7 @@
 
 export default {
   mounted(){
-        document.body.style.backgroundColor = "#7f927c";
+        document.body.style.backgroundColor = "#0073e6";
     },
 }
 </script>
@@ -80,6 +80,18 @@ export default {
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto+Slab:wght@100&display=swap');
 // https://coolors.co/00296b-003f88-00509d-fdc500-ffd500
+
+$font: #ff0004;
+
+a{
+    color: #d3a911;
+    font-weight: bolder;
+}
+
+.title{
+    color: $font;
+    -webkit-text-stroke: 1px black;
+}
 
 .flex-row{
     display: flex;
@@ -90,7 +102,7 @@ export default {
 .content{
     margin: 50px 200px;
     padding: 45px;
-    background-color: #acac79;
+    background-color: #d3a911;
     color: rgba(0, 0, 0, 0.822);
     border-radius: 5px;
     text-align: justify;
@@ -99,7 +111,7 @@ export default {
 }
 .content:first-child::first-letter{
     font-size: 100px;
-    color: #5a0507;
+    color: $font;
 }
 
 </style>

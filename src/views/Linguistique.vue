@@ -1,12 +1,14 @@
 <template>
 <div>
     <h1 class="title" style="color: #e87a5b;">Obscurités diacriques</h1>
-    <h3 class="title" style="color: #e87a5b;">Merilă Alexandru</h3>
+    <h2 class="title"
+    style="position: absolute; color: #e87a5b; right:0; top:0; font-family: 'Dancing Script'; padding-right:15px;"
+    >Merilă Alexandru</h2>
     <h2 class="title" style="color: #e87a5b;">La Ç Cédille</h2>
 
     <div class="content">
         <p>
-            Ç - appelé <i>c cédille</i> en français, est un graphème d'origine espagnole
+            <span style="font-weight:bold;">Ç</span> - appelé <i>c cédille</i> en français, est un graphème d'origine espagnole
             (et pourtant disparu de la langue contemporaine) utilisé parmi les alphabets
             catalan, français, frioulan, monégasque, occitan, portugais etc. comme variante
             diacritée de la lettre « C ».
@@ -49,9 +51,7 @@
                 ainsi que l'accent grave et aigu.
             </p>
             <p>
-                <abbr title="Au quel est contenu l’Art et Science de la deue et vraye Proportion des Lettres Attiques, qu’on dit autrement Lettres Antiques, et vulgairement Lettres Romaines proportionnees selon le Corps & Visage humain.">
-                Champ Fleury
-                </abbr>
+                <abbr title="Au quel est contenu l’Art et Science de la deue et vraye Proportion des Lettres Attiques, qu’on dit autrement Lettres Antiques, et vulgairement Lettres Romaines proportionnees selon le Corps & Visage humain.">Champ Fleury</abbr>
                 est l'une de ses œuvres les plus connues, dans laquelle il évoque l'utilisation correcte du
                 français, en parlant de l'élégance de l'alphabet et de la grammaire, parmi autres sujets.
             </p>
@@ -103,7 +103,7 @@
     <blockquote class="quote">
         Aujourd’hui je pose la question : avons-nous besoin de deux accents, l’aigu et le grave ?
         Notre presse imprimée, toujours à l’avant-garde, a résolu le problème (autre problème séculaire)
-        des capitales non accentuées, et de l’aspect disgracieux des accents de guingois en travers des
+        des capitales non accentuées, et de l’aspect disgracieux des accents <abbr title="ancien français guinguer, sautiller; de giguer, saute">de guingois</abbr> en travers des
         titres, par une procédure, sans bavures : un seul accent, horizontal, qu’on appelle couramment
         l’accent plat :
         <pre>
@@ -170,6 +170,7 @@ export default {
 <style lang="scss" scoped>
 
  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 $primary-fg: #e77254ee;
 
@@ -197,6 +198,7 @@ p, pre, .quote{
 
 pre{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 90%;
 }
 
 .quote{

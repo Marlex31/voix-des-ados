@@ -1,4 +1,6 @@
-media query to warn users against browsing on mobile
+rerender linguistics corrected linguistics vids
+
+fix tooltip positioning
 
 add common css classes to the global scope
 
@@ -16,11 +18,7 @@ infinite scroll (easier to use) OR next article button (more control)
 
 liven up hero - color, gradient animation etc
 
-add custom tooltip to global styles
-
 credit animista in about page
-
-better mobile support?
 
 home and about hrefs navbar (anchor to page bottom) (+ tech stack ?)
 
@@ -55,6 +53,8 @@ draw svg on scroll
 
 DONE
 
+vertical name for my article
+add custom tooltip to global styles
 3d model
 comparison slider for fashion article, between grayscale and colored images
 different font for linguistics article
