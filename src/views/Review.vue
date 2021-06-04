@@ -83,7 +83,7 @@ export default {
 
 $font: #ff0004;
 
-a{
+a:not(.has-tooltip){
     color: #d3a911;
     font-weight: bolder;
 }

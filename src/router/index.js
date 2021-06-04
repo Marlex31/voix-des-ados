@@ -53,6 +53,12 @@ const routes = [
   }
   ,
   {
+    path: '/3',
+    name: 'L\'histoire du Dream SMP',
+    component: () => import('../views/Minecraft.vue')
+  }
+  ,
+  {
     path: '/:pathMatch(.*)',
     name: 'Page non trouvée',
     component: () => import('../views/404.vue')

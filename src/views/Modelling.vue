@@ -171,11 +171,11 @@ import { ImgComparisonSlider } from '@img-comparison-slider/vue';
 import sources from '../components/sources.vue';
 
 export default {
-  components: {
-    ImgComparisonSlider,
-    sources
-  },
-  mounted(){
+    components: {
+        ImgComparisonSlider,
+        sources
+    },
+    mounted(){
         document.body.style.backgroundColor = "#F07167";
     },
     data(){

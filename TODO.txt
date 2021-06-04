@@ -1,6 +1,6 @@
 rerender linguistics corrected linguistics vids
 
-fix tooltip positioning
+fix tooltip positioning bug
 
 add common css classes to the global scope
 
