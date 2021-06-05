@@ -342,7 +342,6 @@ p{
     // align-items: center;
 }
 
-
 .content{
     color: white;
     width: 70%;
