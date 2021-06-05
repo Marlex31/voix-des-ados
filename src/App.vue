@@ -125,7 +125,7 @@ abbr:hover{
 .title{
   text-align: center;
   margin: auto;
-  margin: 15px 0;
+  margin: 30px 0;
 }
 
 </style>
