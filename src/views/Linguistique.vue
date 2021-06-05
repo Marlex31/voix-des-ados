@@ -1,6 +1,6 @@
 <template>
 <div>
-    <h1 class="title" style="color: #e87a5b;">Obscurités diacriques</h1>
+    <h1 class="title" style="color: #e87a5b;">Obscurités diacritiques</h1>
     <h2 class="title"
     style="position: absolute; color: #e87a5b; right:0; top:0; font-family: 'Dancing Script'; padding-right:15px;"
     >Merilă Alexandru</h2>
@@ -13,6 +13,8 @@
             catalan, français, frioulan, monégasque, occitan, portugais etc. comme variante
             diacritée de la lettre « C ».
             <br>
+        </p>
+        <p>
             Le rôle de ce signe diacritique est de changer le son <b>/s/</b>,
             là où un simple ‹ c › aurait représenté le son <b>/k/</b> (principalement avant
             ‹ a ›, ‹ o ›, ‹ u › ou à la fin d'un mot).
@@ -70,7 +72,7 @@
     </video>
 
     <div class="content">
-        <p>
+        <p style="text-indent: 0; text-align:center;">
             C'est grâce à la cédille que la maçonnerie peut être tenue pour une
             activité professionnelle :
         </p>
@@ -120,8 +122,8 @@
         Ce format de vidéo n'est pas supporté par votre navigateur.
     </video>
 
-    <div class="content" style="width:75%; margin:auto;">
-        <p>
+    <div class="content">
+        <p style="text-indent: 0; text-align:center;">
             On peut conclure que le macron est pour ceux qui ont un esprit
             indépendent, impartiel.
         </p>
@@ -178,6 +180,10 @@ video{
     display: block;
     margin: auto;
     padding: 30px 0;
+}
+
+p{
+    text-indent: 5%;
 }
 
 p, pre, .quote{

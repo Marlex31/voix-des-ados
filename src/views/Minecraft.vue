@@ -1,8 +1,7 @@
 <template>
 <div class="main">
-
     <div class="content">
-        <img src="@/assets/misc/dream-smp.png" style="display:block; margin:30px auto;" alt="DREAM SMP = Suciu Larisa">
+        <img src="@/assets/minecraft/dream-smp.png" style="display:block; margin:30px auto;" alt="DREAM SMP = Suciu Larisa">
 
         <p class="mc-font">
             Le serveur Minecraft le plus populaire maintenant. Avec certains des youtubeurs les plus populaires comme members.
@@ -121,6 +120,8 @@
                 </tbody>
             </table>
 
+            <div style="width:50px;"></div>
+
             <div class="flex-column" style="width:50%;">
                 <div><u>Information Générale :</u></div>
                 <p>
@@ -137,7 +138,7 @@
                     perdent les trois vies canoniques, ils sont
                     canoniquement morts… mais peut revenir comme
                 </p>
-                <table style="margin-left: 5%;">
+                <table>
                 <thead>
                     <tr>
                         Ils ont accueilli plusieurs invités dont :
@@ -219,13 +220,88 @@
                     </tr>
                 </tbody>
                 </table>
-                <img src="@/assets/misc/base.jpg" alt="La maison communautaire, avant sa première destruction">
-                <p>La maison communautaire, avant sa première destruction, et les quatre routes qui y étaient reliées.</p>
+
+                <div style="height:25px;"></div>
+                <img src="@/assets/minecraft/base.jpg" alt="La maison communautaire, avant sa première destruction">
+                <i style="text-align:center;">La maison communautaire, avant sa première destruction, et les quatre routes qui y étaient reliées.</i>
             </div>
         </div>
 
+
     <h1 class="title mc-font" style="font-size:125%;">Les Evenments</h1>
 
+    <div>
+        <p class="mc-font">La saga des disques</p>
+        <p>
+            <i>Ponk</i> farces <i>Sapnap</i> en griefing sa maison. Sapnap représailles par
+            brûler la cabane de Ponk, ce qui déclenche une guerre.
+            Alyssa fait équipe avec Ponk pendant la guerre; TommyInnit se joint à la
+            serveur et équipe avec Sapnap.
+            À ce stade, Dream n’aime pas se battre sur le serveur, donc il vole
+            Les 2 disques de Tommy, ses biens les plus précieux.
+            Quelques combats se produisent (Tubbo se joint maintenant), et à la fin, Tommy
+            donne une plaque de marron netherite en échange des disques.
+        </p>
+    </div>
+    <div class="flex-column">
+        <p class="mc-font">Une déclaration d’indépendance</p>
+        <p>
+            <i>Wilbur Soot</i> se joint au serveur et s’associe à <i>Tommy</i> pour créer un médicament empire. Cet empire deviendra plus tard la nation connue sous le nom de L’Manberg. Dream ne veut pas d’un empire de la drogue sur le SMP, donc Wilbur rédige un Déclaration d’indépendance. Dream répond par une déclaration de Guerre. Plus de gens se joignent à L’Manberg, y compris Fundy, Eret, Nihichu et Jack Manifold.
+        </p>
+        <div class="flex-row">
+            <img src="@/assets/minecraft/team.png" style="width:40%;" alt="Membres de L’Manberg">
+            <img src="@/assets/minecraft/flag.png" style="width:40%;" alt="Drapeau de L’Manberg">
+        </div>
+        <i style="text-align:center;">Les membres et le drapeau de L’Manberg</i>
+    </div>
+    <div>
+        <p class="mc-font">L’élection</p>
+        <p>
+            <i>Wilbur</i> et <i>Tommy</i> décident de tenir une élection. Participants : POG2020, SWAG2020, Coconut2020, Schlatt2020. Il passe un accord avec Quackity pour qu’ils combinent leurs votes dans l’espoir de gagner. Le POG2020 se termine en tête, ce qui signifie que Jschlatt et Quackity ont tous deux perdu. Ils combinent leurs votes et gagnent la majorité. Schlatt est maintenant le chef de L’Manberg, avec Quackity comme vice-président. Schlatt renomme L’Manberg « Manberg », brise les murs, brûle le drapeau de L’Manberg et crée le drapeau de Manberg. Schlatt révoque la citoyenneté de Wilbur & Tommy, et ils sont forcés de quitter Manberg. Ils créent Pogtopia, une petite colonie dans un ravin. Tubbo est nommé secrétaire d’État.
+        </p>
+    </div>
+    <div>
+        <p class="mc-font">Le Festival Manberg</p>
+        <p>
+            <i>Manberg</i> prévoit un festival pour célébrer la démocratie, Tubbo est chargé de la planification et de la décoration. <i>Tubbo</i> prévoit faire un discours, et quand il dit « Que le Festival commence ! » Wilbur va appuyer sur un bouton et faire sauter le podium alors que Tubbo saute, tuant les représentants du gouvernement de Schlatt & Manberg. Le plan se retourne et Techo tue Tubbo avec des feux d’artifice et procède pour tuer tout le monde au festival. Niki prend résidence à Pogtopia. Quackity défauts de Manberg à Pogtopia après une bagarre avec Schlatt.
+        </p>
+    </div>
+    <div>
+        <p class="mc-font">Pogtopia vs Manburg</p>
+        <p>
+            Tout le monde est contre Schlatt au lieu de Dream qui dit qu’il y a un traître parmi <i>Pogtopia</i>. Wilbur dit qu’il a placé 11 piles de TNT sous Manberg, donc si quelque chose tourne mal, ça va s’enflammer « Si nous ne pouvons pas avoir L’Manberg, alors personne, PERSONNE, ne peut avoir L’Manberg ». Techno emmène les membres de Pogtopia dans une base secrète, où il prépare des engins pour eux. Ils se précipitent ensuite à Manberg pour attaquer. Schlatt a une crise cardiaque et meurt. Willbur et Tommy sont nommés présidents mais ils ne l’acceptent pas et Tubbo est maintenant le président. Wilbur révèle à Ph1LzA qu’il était le traître et savait ce que Techno allait faire. Il supplie Ph1LzA de le tuer, ce qu’il fait. Willbur est mort. Une fois que Techno s’est enfui et que le garrot a été tué, il reste un énorme cratère. L’ère de la reconstruction commence.
+        </p>
+    </div>
+    <div>
+        <p class="mc-font">Le procès</p>
+        <p>
+            <i>Tommy</i> et <i>Ranboo</i> visitent la nouvelle maison de <i>George</i> pour la voler, mais ils finissent par la mettre en feu. Au procès, Tommy dit à tout le monde que Ranboo n’était pas impliqué et qu’il est innocent.
+        </p>
+    </div>
+    <div>
+        <p class="mc-font">L’exil</p>
+        <p>
+            <i>Tommy</i> convainc <i>Fundy</i>, <i>Quackity</i> et <i>Tubbo</i> de ne pas l’exiler et de se joindre à Techo. Ils vont dire à Dream leur réponse, quand soudain Tubbo accepte d’exiler Tommy, disant que ce serait mieux pour L’Manberg.
+        </p>
+    </div>
+    <div>
+        <p class="mc-font">Tommy Exile & The Butcher Army</p>
+        <p>
+            Tommy passe son exil dans le Logstedshire pendant que Dream veille sur lui. Le manipule pour qu’il pense que personne ne se soucie de lui et qu’il est son ami Quackity décide de créer The Butcher Army, une armée dédiée à l’exécution de Technoblade. Tubbo, Fundy et Ranboo sont séparés, mais Techo les tue tous.
+        </p>
+    </div>
+    <div>
+        <p class="mc-font">Le Second Festival</p>
+        <p>
+            Un festival destiné à tuer Dream. Techno dit qu’il veut détruire L’Manberg, « le pays est déjà mort à mes yeux ». Le jour du Festival, Dream apparaît. Tommy et Tubbo commencent à se disputer au sujet des disques, Tommy, dans un accès de colère, crie « Tubbo, les disques valaient plus que vous ne l’avez jamais été ». Tommy réalise que la personne qu’il est devenu n’est pas celle qu’il veut être. Puis il dit à Tubbo de donner le disque à Dream, ce qu’il fait. Dream leur dit que le lendemain, lui et Techno seront là pour détruire L’Manberg.
+        </p>
+    </div>
+    <div>
+        <p class="mc-font">La chute de L’Manburg</p>
+        <p>
+            Le lendemain, Tommy convainc Sapnap de se battre pour L’Manberg, mais c’est en vain. Ils commencent à frayer au garrot, Techno a des dizaines de chiens apprivoisés et attaquant les gens, Dream démarre canons TNT, et L’manburg est gonflé au niveau du substrat rocheux. L’Manberg est mort.
+        </p>
+    </div>
 
     </div>
 
@@ -247,6 +323,7 @@ export default {
 .mc-font{
     font-family: 'Press Start 2P';
     font-size: 80%;
+    color: #ffff00;
 }
 
 p{
@@ -257,6 +334,7 @@ p{
     display: flex;
     flex-direction: row;
     // align-items: center;
+    justify-content: center;
 }
 .flex-column{
     display: flex;
@@ -274,9 +352,9 @@ p{
 }
 
 .main{
-    height: 2000px;
-    background-image: url("~@/assets/misc/portal.gif");
-    border-image-source: url("~@/assets/misc/frames.png");
+    height: 4500px;
+    background-image: url("~@/assets/minecraft/portal.gif");
+    border-image-source: url("~@/assets/minecraft/frames.png");
     border-image-slice: 500;
     border-image-width: 150px;
     border-image-outset: 8px;

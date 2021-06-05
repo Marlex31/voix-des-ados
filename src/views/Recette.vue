@@ -66,7 +66,7 @@
             </div>
 
             <div class="grid-item"><div class="bold">100g</div>Poudre d'amande
-            <img class="ingredient" src="@/assets/tarte/powder.png" alt="Cherry powder" style="height: 70px; width: 100px;">
+            <img class="ingredient" src="@/assets/tarte/powder.png" alt="Cherry powder">
             </div>
 
             <div class="grid-item"><div class="bold">30g</div>Beurre fondu
@@ -75,7 +75,8 @@
             </div>
 
             <div class="grid-item"><div class="bold">100g</div>Sucre blond
-            <img class="ingredient" src="@/assets/tarte/sugar.png" alt="Sugar">
+            <img class="ingredient" src="@/assets/tarte/sugar.png" alt="Sugar"
+            style="height: 125px; width: 125px;">
             </div>
 
             <div class="grid-item"><div class="bold">3</div>&OElig;ufs
