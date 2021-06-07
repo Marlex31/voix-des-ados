@@ -65,10 +65,15 @@ const routes = [
   }
   ,
   {
+    path: '/6',
+    name: 'Histoire d\'Internet',
+    component: () => import('../views/Internet.vue')
+  }
+  ,
+  {
     path: '/:pathMatch(.*)',
     name: 'Page non trouvée',
     component: () => import('../views/404.vue')
-
   }
 ]
 

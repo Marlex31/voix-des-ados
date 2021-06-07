@@ -1,8 +1,9 @@
 <template>
+<button ref="btn" @click="main">▶</button>
 <div class="terminal">
   <p>
-    {{ text }}
-  <span class="typed-cursor">&#9608;</span>
+    >>> {{ text }}
+    <span ref="cursor" class="typed-cursor">&#9608;</span>
   </p>
 </div>
 </template>
@@ -25,14 +26,16 @@ export default {
         }
         else{
           this.controller.pause();
-          // add pause for cursor blink
+          this.$refs['cursor'].remove()
+          this.$refs['btn'].remove()
         }
-      }
-    },
-    mounted() {
+      },
+    main(){
       this.write()
       this.controller.play();
+    }
     },
+
     // replace with slot?
     props: {
       source: String
@@ -45,9 +48,11 @@ export default {
 
 .terminal{
     font-family: monospace;
-    font-size: 25px;
-    text-align: left;
-    padding: 0 30px;
+    padding-left: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    /* display:inline-block; */
 }
 
 
