@@ -71,6 +71,12 @@ const routes = [
   }
   ,
   {
+    path: '/7',
+    name: 'Arsene Lupin',
+    component: () => import('../views/Lupin.vue')
+  }
+  ,
+  {
     path: '/:pathMatch(.*)',
     name: 'Page non trouvée',
     component: () => import('../views/404.vue')

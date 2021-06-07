@@ -58,6 +58,8 @@ export default {
 
 
 <style lang="scss" scoped>
+// https://coolors.co/e8d7f1-d3bccc-a167a5-4a306d-0e273c
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 img, object{

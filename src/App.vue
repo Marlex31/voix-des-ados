@@ -143,7 +143,7 @@ abbr:hover{
   /* display: block; */
   text-align: center;
   margin: auto;
-  margin: 30px 0;
+  margin-bottom: 30px;
 }
 
 </style>

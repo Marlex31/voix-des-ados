@@ -1,11 +1,11 @@
 <template>
-<button ref="btn" @click="main">▶</button>
-<div class="terminal">
-  <p>
-    >>> {{ text }}
-    <span ref="cursor" class="typed-cursor">&#9608;</span>
-  </p>
-</div>
+  <button ref="btn" @click="main">▶</button>
+  <div class="terminal">
+    <p>
+      >>> {{ text }}
+      <span ref="cursor" class="typed-cursor">&#9608;</span>
+    </p>
+  </div>
 </template>
 
 <script>
