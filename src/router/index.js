@@ -59,6 +59,12 @@ const routes = [
   }
   ,
   {
+    path: '/4',
+    name: 'L\'impact de la technologie sur la vie quotidienne',
+    component: () => import('../views/Impact.vue')
+  }
+  ,
+  {
     path: '/:pathMatch(.*)',
     name: 'Page non trouvée',
     component: () => import('../views/404.vue')

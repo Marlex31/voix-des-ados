@@ -100,7 +100,7 @@ a:not(.has-tooltip){
 }
 
 .content{
-    margin: 50px 200px;
+    margin: 50px auto;
     padding: 45px;
     background-color: #d3a911;
     color: rgba(0, 0, 0, 0.822);

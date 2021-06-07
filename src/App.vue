@@ -30,6 +30,23 @@ export default {
 
 <style>
 
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    margin: 50px auto;
+    padding: 25px;
+    width: 50%;
+    text-indent: 10%;
+    border-radius: 15px;
+    text-align: justify;
+}
+
 a.has-tooltip{
     text-decoration-line: underline;
     text-decoration-color: inherit;
@@ -117,12 +134,13 @@ abbr:hover{
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Georgia, serif;
   color: #2c3e50;
   font-size: 24px;
 }
 
 .title{
+  /* display: block; */
   text-align: center;
   margin: auto;
   margin: 30px 0;

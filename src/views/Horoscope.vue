@@ -3,7 +3,7 @@
         <h1 class="title">Horoscope</h1>
         <h2 class="title">Bonda Alisa</h2>
 
-        <div class="container">
+        <div class="container" :class="anim">
             <h2 class="title">Lion</h2>
             <div class="flex-row">
                 <button @click="back">Back</button>
@@ -12,9 +12,7 @@
                 </p>
                 <button @click="next">Next</button>
             </div>
-
         </div>
-
     </div>
 </template>
 
@@ -24,9 +22,16 @@ export default {
     methods:{
         next(){
             console.log("Next");
+            this.anim = "flip-in-ver-right"
         },
         back(){
             console.log("Back");
+             this.anim = "flip-in-ver-left"
+        }
+    },
+    data(){
+        return{
+            anim: ""
         }
     },
     mounted(){
@@ -38,9 +43,11 @@ export default {
 
 <style lang="scss" scoped>
 
-button{
-    margin: 30px;
-}
+.flip-in-ver-right{animation:flip-in-ver-right .5s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes flip-in-ver-right{0%{transform:rotateY(-80deg);opacity:0}100%{transform:rotateY(0);opacity:1}}
+
+.flip-in-ver-left{animation:flip-in-ver-left .5s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes flip-in-ver-left{0%{transform:rotateY(80deg);opacity:0}100%{transform:rotateY(0);opacity:1}}
 
 .flex-row{
     display: flex;
