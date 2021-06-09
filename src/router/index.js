@@ -77,6 +77,36 @@ const routes = [
   }
   ,
   {
+    path: '/11',
+    name: 'Alizée',
+    component: () => import('../views/Artiste.vue')
+  }
+  ,
+  {
+    path: '/24',
+    name: 'Gymnastique',
+    component: () => import('../views/Gymnastique.vue')
+  }
+  ,
+  {
+    path: '/15',
+    name: 'La pollution',
+    component: () => import('../views/Pollution.vue')
+  }
+  ,
+  {
+    path: '/27',
+    name: 'L\'évolution de la musique',
+    component: () => import('../views/Music.vue')
+  }
+  ,
+  {
+    path: '/25',
+    name: 'Coupe du monde 2018',
+    component: () => import('../views/Coupe.vue')
+  }
+  ,
+  {
     path: '/:pathMatch(.*)',
     name: 'Page non trouvée',
     component: () => import('../views/404.vue')

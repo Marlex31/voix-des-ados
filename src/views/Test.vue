@@ -1,12 +1,12 @@
 <template>
-    <div>
-
-    </div>
+<div>
+    <h1 class="title"></h1>
+    <h2 class="title"></h2>
+</div>
 </template>
 
 
 <script>
-
 export default {
     mounted(){
         document.body.style.backgroundColor = "#";
@@ -16,6 +16,6 @@ export default {
 </script>
 
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>

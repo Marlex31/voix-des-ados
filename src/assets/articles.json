@@ -100,11 +100,15 @@
         "tags": ["sport"]
     },
     {
-        "title": "Coupe mondiale de foot 2018",
+        "title": "Coupe du monde 2018",
         "tags": ["sport"]
     },
     {
         "title": "La tour de France",
         "tags": ["sport"]
+    },
+    {
+        "title": "L'évolution de la musique",
+        "tags": ["culture"]
     }
 ]
