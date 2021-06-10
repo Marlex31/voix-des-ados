@@ -104,6 +104,17 @@ const routes = [
     path: '/25',
     name: 'Coupe du monde 2018',
     component: () => import('../views/Coupe.vue')
+  },
+  {
+    path: '/20',
+    name: 'Emmanuel Macron',
+    component: () => import('../views/Macron.vue')
+  }
+  ,
+  {
+    path: '/22',
+    name: 'Lionel Messi',
+    component: () => import('../views/Messi.vue')
   }
   ,
   {
