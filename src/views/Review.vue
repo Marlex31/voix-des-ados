@@ -90,7 +90,7 @@ a:not(.has-tooltip){
 
 .title{
     color: $font;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0.5px black;
 }
 
 .flex-row{

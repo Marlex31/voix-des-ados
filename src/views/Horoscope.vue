@@ -146,4 +146,8 @@ h4{
     margin: 0 auto;
 }
 
+.title{
+    color: whitesmoke;
+}
+
 </style>

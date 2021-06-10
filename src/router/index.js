@@ -124,6 +124,24 @@ const routes = [
   }
   ,
   {
+    path: '/23',
+    name: 'Flash Interview avec Kylian Mbappé',
+    component: () => import('../views/Interview.vue')
+  }
+  ,
+  {
+    path: '/19',
+    name: 'La santé par le sport',
+    component: () => import('../views/Health.vue')
+  }
+  ,
+  {
+    path: '/2',
+    name: 'Fashion Week Paris',
+    component: () => import('../views/Fashion.vue')
+  }
+  ,
+  {
     path: '/:pathMatch(.*)',
     name: 'Page non trouvée',
     component: () => import('../views/404.vue')
