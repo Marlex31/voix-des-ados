@@ -118,6 +118,12 @@ const routes = [
   }
   ,
   {
+    path: '/28',
+    name: 'La France pendant les deux guerres mondiales',
+    component: () => import('../views/Wars.vue')
+  }
+  ,
+  {
     path: '/:pathMatch(.*)',
     name: 'Page non trouvée',
     component: () => import('../views/404.vue')

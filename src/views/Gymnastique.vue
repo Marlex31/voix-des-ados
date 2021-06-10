@@ -29,17 +29,26 @@
 
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/%C3%89milie_Le_Pennec%2C_2005_%28portrait%29.jpg/330px-%C3%89milie_Le_Pennec%2C_2005_%28portrait%29.jpg" alt="">
 
-    <a href="https://en.wikipedia.org/wiki/%C3%89milie_Le_Pennec">https://en.wikipedia.org/wiki/%C3%89milie_Le_Pennec</a>
+    <sources :links="links"></sources>
 
 </div>
 </template>
 
 
 <script>
+import sources from '../components/sources.vue';
 export default {
+  components: { sources },
     mounted(){
         document.body.style.backgroundColor = "#ffc8dd";
     },
+    data(){
+        return{
+            links:{
+                "https://en.wikipedia.org/wiki/Émilie_Le_Pennec": "https://en.wikipedia.org/wiki/%C3%89milie_Le_Pennec"
+            }
+        }
+    }
 
 }
 </script>

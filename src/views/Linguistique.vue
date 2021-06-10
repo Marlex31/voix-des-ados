@@ -231,6 +231,7 @@ pre{
     linear-gradient(rgb(243, 186, 186) .1em, transparent .1em);
     background-size: 100% 1.5em;
     padding: 10px 0;
+    width: 100%;
 }
 
 .flex-container{
