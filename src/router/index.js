@@ -142,6 +142,18 @@ const routes = [
   }
   ,
   {
+    path: '/13',
+    name: 'Millefeuille à la vanille et au praliné',
+    component: () => import('../views/Millefeuille.vue')
+  }
+  ,
+  {
+    path: '/9',
+    name: 'Fête nationale française',
+    component: () => import('../views/Holiday.vue')
+  }
+  ,
+  {
     path: '/:pathMatch(.*)',
     name: 'Page non trouvée',
     component: () => import('../views/404.vue')

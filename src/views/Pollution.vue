@@ -44,7 +44,8 @@ export default {
 <style scoped>
 
 .content{
-    color: #555b6e;
+    background-color: #555b6e;
+    color: whitesmoke;
 }
 
 img{

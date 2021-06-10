@@ -1,5 +1,5 @@
 <template>
-<div class="content">
+<div class="main">
     <h1 class="title">Clafoutis aux cerises</h1>
     <h2 class="title">Cătinean Larisa</h2>
 
@@ -205,28 +205,6 @@ svg{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-table {
-    border:none;
-    border-collapse: collapse;
-}
-
-table td {
-    border: 1px solid #000;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-}
-
-table td:first-child {
-    border-left: none;
-}
-
-table td:last-child {
-    border-right: none;
-}
-td{
-    padding: 10px;
-}
-
 li{
     margin-top: 10px;
 }
@@ -248,8 +226,7 @@ li{
     margin: 5px;
 }
 
-.content{
+.main{
     font-family: Alegreya;
-    font-size: 22px;
 }
 </style>
