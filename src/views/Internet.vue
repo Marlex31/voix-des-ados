@@ -10,7 +10,7 @@
         </p>
     </div>
 
-    <object data="https://upload.wikimedia.org/wikipedia/commons/9/99/InternetPenetrationWorldMap.svg" type="image/svg+xml"></object>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/InternetPenetrationWorldMap.svg">
     <i style="display:block; text-align:center;">Internautes en 2015 en pourcentage de la population des unités</i>
 
     <div class="content">
@@ -40,7 +40,7 @@
             En tant que programme du Département américain de la Défense, ARPANET s'est développé étonnamment rapide, avec de plus en plus d'ordinateurs qui s'y connectent. En <abbr title="mille neuf cent soixante-dix-neuf">1979</abbr>, l'ARPA a décidé de scinder le réseau en deux, un pour le monde commercial et universitaire et un militaire. Les deux réseaux pouvaient encore communiquer, construisant pratiquement un inter-réseau (Internet) initialement appelé DARPA Internet et établi plus tard sous le nom d'Internet. De nombreux chercheurs universitaires et militaires ont concentré leurs efforts sur le développement de programmes de communication en réseau. Ainsi, en <abbr title="mille neuf cent quatre-vingts">1980</abbr>, une série de programmes de communication (basés sur des protocoles bien définis), toujours utilisés aujourd'hui, étaient déjà achevés. En <abbr title="mille neuf cent quatre-vingt-trois">1983</abbr> TCP / IP est devenu le seul protocole Internet officiel et, par conséquent, de plus en plus d'ordinateurs dans le monde étaient connectés à ARPANET. La croissance du nombre d'ordinateurs connectés à Internet est devenue exponentielle, de sorte qu'en <abbr title="mille neuf cent quatre-vingt-dix">1990</abbr>, Internet comprenait 3 000 réseaux et 300 000 ) (ordinateurs. En <abbr title="mille neuf cent quatre-vingt-douze">1992</abbr>, le 1 000 000 ordinateur était déjà connecté. Ensuite, la taille d'Internet a doublé environ chaque année.
         </p>
     </div>
-    <object data="https://upload.wikimedia.org/wikipedia/commons/0/0c/Internet_Hosts_Count_log.svg" type="image/svg+xml"></object>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Internet_Hosts_Count_log.svg">
 
 </div>
 </template>
@@ -62,7 +62,7 @@ export default {
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-img, object{
+img{
     display: block;
     margin: auto;
 }

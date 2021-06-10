@@ -61,7 +61,7 @@
 <script>
 export default {
     mounted(){
-        document.body.style.backgroundColor = "#";
+        document.body.style.backgroundColor = "#f2f2f2";
     },
 
 }

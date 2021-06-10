@@ -17,12 +17,19 @@
     <i :class="btnToggle(8)" title="Sport" class="btn fas fa-swimmer fa-3x" @click="reqSort"></i>
   </div>
 
-  <transition-group tag="div" class="grid-container" name="list">
-    <div v-for="(item, index) in titleArr" :key="index" :class="item.tags" :id="defaultList.indexOf(item)"
-    class="grid-item" @click="route">
-      {{ item['title'] }}
-    </div>
-  </transition-group>
+    <transition-group tag="div" class="grid-container" name="list">
+      <div v-for="(item, index) in titleArr" :key="index" :class="item.tags" :id="defaultList.indexOf(item)"
+      class="grid-item" @click="route">
+        {{ item['title'] }}
+      </div>
+    </transition-group>
+  </div>
+
+  <div style="width:5%; display:block; margin:auto;">
+      <a :href="`${publicPath}main.pdf`" download="download">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M 15 4 L 15 20.5625 L 9.71875 15.28125 L 8.28125 16.71875 L 15.28125 23.71875 L 16 24.40625 L 16.71875 23.71875 L 23.71875 16.71875 L 22.28125 15.28125 L 17 20.5625 L 17 4 Z M 7 26 L 7 28 L 25 28 L 25 26 Z"/>
+      </svg>
+    </a>
   </div>
 
 </div>
@@ -63,7 +70,8 @@ export default {
     titleArr: jsonList,
     defaultList: jsonList,
     lastReq: null,
-    activeIndex: null
+    activeIndex: null,
+    publicPath: process.env.BASE_URL
     }
   },
   methods:{
